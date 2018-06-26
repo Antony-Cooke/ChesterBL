@@ -7,6 +7,6 @@ Repository https://github.com/Antony-Cooke/ChesterBL.git
 
 <p>This website is for the Chester Snooker and Billiards League, Billiards Section</p>
 
-https://antony-cooke.github.io/ChesterBL/
+https://antony-cooke.github.io/ChesterBL/index.html
 
 
