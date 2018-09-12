@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="">
 
 </head>
 
@@ -57,14 +58,14 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                      Links
+                        aria-expanded="false">
+                        Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="EABA.html">EABA Calendar 2018 - 2019</a>
-                      <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2018 - 2019</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
                     </div>
-                  </li>
+                </li>
             </ul>
         </div>
     </nav>
@@ -80,28 +81,57 @@
                 <div class='col-sm-12'>
                     <h2 style="text-align:center; color:white; font-size:5vw"> Adjusted Handicaps</h2>
                 </div>
-                <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:darkred; font-size:3vw"> Key:-</h3>
+                <div class='col-sm-3'>
+                    <br>
                 </div>
-                <div class='col-sm-12'>
+                <div class='col-sm-6'>
                     <h4 style="text-align:center; color:darkred; font-size:2vw">
-                        <b>+5 : Win
-                            <br>-5 : Loss
-                            <br># : Did Not Play
-                            <br>X : No Match
-                        </b>
+                        <table class="table table-bordered table-dark table-hover adj1" style="text-align:center; color: yellow">
+                            <thead>
+                                <tr style="color: red">
+                                    <th colspan="2">Key</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>+5</td>
+                                    <td>Win</td>
+                                </tr>
+                                <tr>
+                                    <td>-5</td>
+                                    <td>Loss</td>
+                                </tr>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Did Not Play</td>
+                                </tr>
+                                <tr>
+                                    <td>X</td>
+                                    <td>No Match (BYE)</td>
+                                </tr>
+                                <tr>
+                                    <td>*</td>
+                                    <td>Played Twice in same match</td>
+                                </tr>
+                                <tr>
+                                    <td>$</td>
+                                    <td>No adjustment (Max Handiap)</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </h4>
                 </div>
-                <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:darkred; font-size:3vw"> Note:-</h3>
+                <div class='col-sm-3'>
+                    <br>
                 </div>
                 <div class='col-sm-12'>
-                    <h4 style="text-align:center; color:darkred; font-size:2vw">
-                        <b>Maximum Handicap is now +115</b>
-                    </h4>
+                    <h3 style="text-align:center; color:darkred; font-size:4vw"><b>Note:-</b> </h3>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: rgb(41, 41, 231)">
+                    <h4 style="text-align:center; color:darkred; font-size:3vw"><b>Maximum Handicap is +115</b></h4>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover adj2" style="text-align:center; color: yellow">
                         <thead>
                             <tr>
                                 <th>Player</th>
@@ -131,10 +161,18 @@
                             <tr style="color: red">
                                 <td colspan="21">BROUGHTON</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Harry Wah</td>
                                 <td>110</td>
                                 <td>+5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -144,21 +182,13 @@
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td>115</td>
-                            </tr>
-                            <tr style="color: red">
-                                <td>Malcolm Anglesea</td>
                                 <td>110</td>
+                            </tr>
+                            <tr>
+                                <td>Malcolm Anglesea</td>
+                                <td>105</td>
                                 <td>+5</td>
-                                <td></td>
+                                <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -177,10 +207,18 @@
                                 <td></td>
                                 <td>105</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Frank Long</td>
                                 <td>45</td>
                                 <td>+5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -190,21 +228,13 @@
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td>50</td>
+                                <td>45</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Brian Hodgkinson</td>
                                 <td>110</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -223,10 +253,18 @@
                                 <td></td>
                                 <td>110</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Glyn Wilcock</td>
                                 <td>55</td>
                                 <td>+5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -236,21 +274,13 @@
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td>60</td>
+                                <td>55</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Colin Hargreaves</td>
                                 <td>45</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -269,11 +299,11 @@
                                 <td></td>
                                 <td>45</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Denzil Jones</td>
                                 <td>70</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -292,14 +322,14 @@
                                 <td></td>
                                 <td>70</td>
                             </tr>
-                            <tr>
+                            <tr style="color: red">
                                 <td colspan="21">BUCKLEY CONS</td>
                             </tr>
                             <tr>
                                 <td>Malcolm Hughes</td>
                                 <td>90</td>
                                 <td>-5</td>
-                                <td></td>
+                                <td>-5</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -316,13 +346,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>85</td>
+                                <td>80</td>
                             </tr>
                             <tr>
                                 <td>Gordy Edwards</td>
                                 <td>75</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -345,30 +375,7 @@
                                 <td>Bryn Hughes</td>
                                 <td>95</td>
                                 <td>-5</td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>90</td>
-                            </tr>
-                            <tr>
-                                <td>Nathan Gartland</td>
-                                <td>100</td>
-                                <td>-5</td>
-                                <td></td>
+                                <td>+5</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -388,10 +395,33 @@
                                 <td>95</td>
                             </tr>
                             <tr>
+                                <td>Nathan Gartland</td>
+                                <td>100</td>
+                                <td>-5</td>
+                                <td>+5</td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
                                 <td>Graham Martin</td>
                                 <td>115</td>
                                 <td>-5</td>
-                                <td></td>
+                                <td>+5</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -408,15 +438,25 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>110</td>
+                                <td>115</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr style="color: red">
                                 <td colspan="21">CHESTER CONS</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Anthony Done</td>
                                 <td>-55</td>
                                 <td>+5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -424,118 +464,39 @@
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td>-50</td>
+                                <td>-45</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Geoff Brassington</td>
                                 <td>-125</td>
                                 <td>+5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td>-120</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td>Eddie Jenkins</td>
-                                <td>55</td>
-                                <td>#</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td>55</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td>Phil Whiteside</td>
-                                <td>SCR</td>
-                                <td>+5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td>5</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td>Steve Williams</td>
-                                <td>35</td>
-                                <td>#</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td>35</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td>Andy Duckers</td>
-                                <td>70</td>
                                 <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td>-125</td>
+                            </tr>
+                            <tr>
+                                <td>Eddie Jenkins</td>
+                                <td>55</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
@@ -549,16 +510,85 @@
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
-                                <td>65</td>
+                                <td>55</td>
+                            </tr>
+                            <tr>
+                                <td>Phil Whiteside</td>
+                                <td>SCR</td>
+                                <td>+5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Steve Williams</td>
+                                <td>35</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td>35</td>
+                            </tr>
+                            <tr>
+                                <td>Andy Duckers</td>
+                                <td>70</td>
+                                <td>-5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td>60</td>
                             </tr>
                             <tr style="color: red">
                                 <td colspan="21">EASTHAM HOME GUARD</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Clive Bennett</td>
                                 <td>70</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
@@ -577,10 +607,18 @@
                                 <td></td>
                                 <td>70</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Mike Bennett</td>
                                 <td>50</td>
                                 <td>#</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -590,20 +628,20 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>50</td>
+                                <td>55</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Steve Bradshaw</td>
                                 <td>-40</td>
                                 <td>-5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -613,21 +651,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>-45</td>
+                                <td>-50</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Antony Cooke</td>
                                 <td>15</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
@@ -646,10 +676,18 @@
                                 <td></td>
                                 <td>15</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Eddie Duggan</td>
                                 <td>-90</td>
                                 <td>-5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -659,21 +697,36 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>-95</td>
+                                <td>-90</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Terry McAdam</td>
                                 <td>SCR</td>
                                 <td>-5</td>
+                                <td>#</td>
                                 <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>-5</td>
+                            </tr>
+                            <tr>
+                                <td>Phil Woolland</td>
+                                <td>-5</td>
+                                <td>+5</td>
+                                <td>-5</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
@@ -693,35 +746,21 @@
                                 <td>-5</td>
                             </tr>
                             <tr style="color: red">
-                                <td>Phil Woolland</td>
-                                <td>-5</td>
-                                <td>+5</td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>SCR</td>
-                            </tr>
-                            <tr>
                                 <td colspan="21">EWLOE</td>
                             </tr>
                             <tr>
                                 <td>Steve Evans</td>
                                 <td>95</td>
                                 <td>+5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -730,22 +769,13 @@
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td>100</td>
+                                <td>105</td>
                             </tr>
                             <tr>
                                 <td>Ken Massey</td>
                                 <td>50</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -768,30 +798,30 @@
                                 <td>Alan Norwood</td>
                                 <td>SCR</td>
                                 <td>-5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
                                 <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td>-10</td>
                             </tr>
                             <tr>
                                 <td>Barry Evans</td>
                                 <td>70</td>
                                 <td>+5</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -814,6 +844,15 @@
                                 <td>Ivor Norbury</td>
                                 <td>65</td>
                                 <td>-5</td>
+                                <td style="color: red">+5*</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -822,25 +861,16 @@
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td>60</td>
+                                <td>65</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr style="color: red">
                                 <td colspan="21">UPTON RBL A</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>John Over (Snr)</td>
                                 <td>115</td>
                                 <td>X</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -859,11 +889,11 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Colin Jones</td>
                                 <td>10</td>
                                 <td>X</td>
-                                <td></td>
+                                <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -880,13 +910,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>10</td>
+                                <td>5</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Garry Morley</td>
                                 <td>50</td>
                                 <td>X</td>
-                                <td></td>
+                                <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -903,13 +933,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>50</td>
+                                <td>45</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>John Over (Jnr)</td>
                                 <td>70</td>
                                 <td>X</td>
-                                <td></td>
+                                <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -926,13 +956,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>70</td>
+                                <td>65</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Shaun Steadman</td>
                                 <td>95</td>
                                 <td>X</td>
-                                <td></td>
+                                <td>+5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -949,12 +979,12 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>95</td>
+                                <td>100</td>
                             </tr>
                             <tr style="color: red">
                                 <td colspan="21">UPTON RBL B</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>John Griffiths</td>
                                 <td>90</td>
                                 <td>-5</td>
@@ -977,7 +1007,7 @@
                                 <td></td>
                                 <td>85</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Jerry Banks</td>
                                 <td>105</td>
                                 <td>-5</td>
@@ -1000,7 +1030,7 @@
                                 <td></td>
                                 <td>100</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Leo Jackson</td>
                                 <td>110</td>
                                 <td>+5</td>
@@ -1023,7 +1053,7 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Brian Sharratt</td>
                                 <td>115</td>
                                 <td>#</td>
@@ -1046,10 +1076,10 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Alan Tomlinson</td>
                                 <td>115</td>
-                                <td>+5 (no adj)</td>
+                                <td style="color: red">+5$</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -1069,7 +1099,7 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>John Fergus</td>
                                 <td>115</td>
                                 <td>#</td>
@@ -1092,7 +1122,7 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr>
                                 <td>Mark Eyton</td>
                                 <td>115</td>
                                 <td>#</td>
@@ -1115,14 +1145,14 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr>
+                            <tr style="color: red">
                                 <td colspan="21">WAVERTON A</td>
                             </tr>
                             <tr>
                                 <td>Roger Miln</td>
                                 <td>100</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -1145,7 +1175,7 @@
                                 <td>Tom Jones</td>
                                 <td>90</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -1168,6 +1198,15 @@
                                 <td>Ken Lightfoot</td>
                                 <td>115</td>
                                 <td>-5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1176,21 +1215,21 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>110</td>
+                                <td>115</td>
                             </tr>
                             <tr>
                                 <td>Mark Lloyd</td>
                                 <td>80</td>
                                 <td>#</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1199,21 +1238,21 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>80</td>
+                                <td>85</td>
                             </tr>
                             <tr>
                                 <td>Bill McClimmonds</td>
                                 <td>115</td>
                                 <td>-5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1222,22 +1261,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>110</td>
+                                <td>115</td>
                             </tr>
                             <tr>
                                 <td>John O'Boyle</td>
                                 <td>110</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -1260,7 +1290,7 @@
                                 <td>Andy Sutton-Thompson</td>
                                 <td>115</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -1283,7 +1313,30 @@
                                 <td>Josh Nicholas</td>
                                 <td>100</td>
                                 <td>-5</td>
+                                <td>+5</td>
                                 <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Stuart Nicholas</td>
+                                <td>80</td>
+                                <td>+5</td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -1297,65 +1350,42 @@
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>85</td>
+                            </tr>
+                            <tr style="color: red">
+                                <td colspan="21">WAVERTON B</td>
+                            </tr>
+                            <tr>
+                                <td>Brian Gresty</td>
+                                <td>90</td>
+                                <td>#</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td>95</td>
                             </tr>
                             <tr>
-                                <td>Stuart Nicholas</td>
-                                <td>80</td>
-                                <td>+5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>85</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td colspan="21">WAVERTON B</td>
-                            </tr>
-                            <tr style="color: green">
-                                <td>Brian Gresty</td>
-                                <td>90</td>
-                                <td>#</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>90</td>
-                            </tr>
-                            <tr style="color: green">
                                 <td>Dave Bate</td>
                                 <td>35</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1374,10 +1404,19 @@
                                 <td></td>
                                 <td>35</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Sid Craven</td>
                                 <td>105</td>
                                 <td>+5</td>
+                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1386,22 +1425,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>110</td>
+                                <td>115</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Derk Garner</td>
                                 <td>85</td>
                                 <td>+5</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1420,14 +1450,14 @@
                                 <td></td>
                                 <td>90</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Darren Robinson</td>
                                 <td>15</td>
+                                <td>-5</td>
                                 <td>-5</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
@@ -1441,12 +1471,21 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>10</td>
+                                <td>5</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Keith Speed</td>
                                 <td>110</td>
                                 <td>+5</td>
+                                <td>-5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1455,22 +1494,13 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>X</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>115</td>
+                                <td>110</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Ian Speed</td>
                                 <td>105</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1489,11 +1519,11 @@
                                 <td></td>
                                 <td>105</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Cliff Webb</td>
                                 <td>115</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1512,11 +1542,11 @@
                                 <td></td>
                                 <td>115</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Tom Hughes</td>
                                 <td>80</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -1535,11 +1565,11 @@
                                 <td></td>
                                 <td>80</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr>
                                 <td>Roy Willis</td>
                                 <td>20</td>
                                 <td>#</td>
-                                <td></td>
+                                <td>#</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
