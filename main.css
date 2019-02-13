@@ -6,10 +6,13 @@ table.adj2 {
     table-layout: auto;
     width: 100%;
 }
-
+.top2 {
+    font-weight: bold;
+    font-style: italic;
+}
 h4 {
     color: black;
-    text-emphasis: bold;
+    font-weight: bold;
     text-decoration: underline;
     font-size:2vw
 }
