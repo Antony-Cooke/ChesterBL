@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="">
 
 </head>
 
-<body style="background-image:url('images/billiards.jpg')">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,7 @@
                     <a class="nav-link" href="Breaks.html">Breaks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Adjusted.html">Adjusted Handicaps</a>
+                    <a class="nav-link" href="handicaps.html">Adjusted Handicaps</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -62,11 +63,15 @@
                         <a class="dropdown-item" href="CayzerRes.html">Tables</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Davies.html">Davies Cup</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Thomas.html">Will Thomas Cup</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -74,8 +79,18 @@
                         Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2018 - 2019</a>
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
                         <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
                     </div>
                 </li>
             </ul>
@@ -88,41 +103,41 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-12'>
-                    <h1 style="text-align:center; color:red; font-size:6vw">EABA Fixtures 2018 - 2019</h1>
+                    <h1 class="middle red six">EABA Fixtures 2019 - 2020</h1>
                 </div>
                 <div class='col-sm-12'>
-                    <h1 style="text-align:center; color:red; font-size:6vw">Key</h1>
+                    <h1 class="middle red six">Key</h1>
                 </div>
                 <div class='col-sm-2'>
                     <br>
                 </div>
-                <div class='col-sm-8' style="text-align:center;font-size:2vw">
+                <div class='col-sm-8 middle two'>
                     <table class="table table-bordered table-dark table-hover">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class="yellow">
                                 <th>KEY</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>World Billiards Competition (Professionals competing)</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>English Amateur Billiards Association Ranking Event</td>
                             </tr>
-                            <tr style="color: darkgrey">
+                            <tr class="darkgrey">
                                 <td>English Amateur Billiards Association Seniors Ranking Event</td>
                             </tr>
-                            <tr style="color: yellowgreen">
+                            <tr class="yellowgreen">
                                 <td>English Amateur Billiards Championship Event</td>
                             </tr>
-                            <tr style="color: orange">
+                            <tr class="orange">
                                 <td>Billiards International Amateur Competition</td>
                             </tr>
-                            <tr style="color: purple">
+                            <tr class="purple">
                                 <td>English Billiards Social Series Competition</td>
                             </tr>
-                            <tr style="color: white">
+                            <tr class="white">
                                 <td>Everything Else</td>
                             </tr>
                         </tbody>
@@ -132,10 +147,10 @@
                     <br>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover middle white">
                         <col width="100">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class="yellow">
                                 <th>Day(s)</th>
                                 <th>Date(s)</th>
                                 <th>Organisers</th>
@@ -144,8 +159,8 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">August 2018</th>
+                            <tr class="yellow two">
+                                <th colspan="5">August 2019</th>
                             </tr>
                             <tr>
                                 <td>Sat - Sun</td>
@@ -154,7 +169,7 @@
                                 <td>NSC Open</td>
                                 <td>Northern Snooker Centre, Leeds</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Fri - Sun</td>
                                 <td>31 - 9
                                     <br>(Sept)</td>
@@ -162,15 +177,15 @@
                                 <td>Australia/ New Zealand Tour</td>
                                 <td>TBC</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">September 2018</th>
+                            <tr class="yellow two">
+                                <th colspan="5">September 2019</th>
                             </tr>
                             <tr>
                                 <td>Sat - Sun</td>
                                 <td>1-2</td>
                                 <td colspan="3"></td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>9</td>
                                 <td>EABA</td>
@@ -184,34 +199,34 @@
                                 <td>Whitworth Masters</td>
                                 <td>Joseph Whitworth Centre, Darley Dale, Derbyshire</td>
                             </tr>
-                            <tr style="color: darkgrey">
+                            <tr class="darkgrey">
                                 <td>Sat - Sun</td>
                                 <td>22-23 </td>
                                 <td>EABA</td>
                                 <td>UK Seniors (Over 50) Championship</td>
                                 <td>Cue Ball Club, Derby</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>30</td>
                                 <td>EABA</td>
                                 <td>Jock MacGregor Handicap</td>
                                 <td>Clay Cross, Derbyshire</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">October 2018</th>
+                            <tr class="yellow two">
+                                <th colspan="5">October 2019</th>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>7</td>
                                 <td>EABA</td>
                                 <td>2nd A.B.C. National Ranking Event</td>
                                 <td>Clay Cross, Derbyshire</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
+                            <tr class="yellow two">
                                 <td>Sun</td>
                                 <td>7</td>
-                                <td colspan="3" style="text-align:left">*** !!! *** Closing date for ALL Championship
+                                <td colspan="3" class="middle">*** !!! *** Closing date for ALL Championship
                                     Entries *** !!! ***</td>
                             </tr>
                             <tr>
@@ -221,14 +236,14 @@
                                 <td>EABA County Championship</td>
                                 <td>Atack Club, Nuneaton</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Fri-Sat</td>
                                 <td>20-21</td>
                                 <td>WBL</td>
                                 <td>Jim Williamson Open</td>
                                 <td>Northern Snooker Centre, Leeds</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sun-Fri</td>
                                 <td>22-26</td>
                                 <td>WBL</td>
@@ -239,22 +254,22 @@
                                 <td>Sun</td>
                                 <td>28</td>
                                 <td>MBSL</td>
-                                <td>Merseyside Billiards Championship 2018</td>
+                                <td>Merseyside Billiards Championship 2019</td>
                                 <td><a href="https://www.google.co.uk/maps/place/Mill+Brow+Snooker+Club/@53.3731503,-2.7209828,17z/data=!3m1!4b1!4m5!3m4!1s0x487b1d71ba85cf6f:0xae4b1eb8b897d9c9!8m2!3d53.3731503!4d-2.7187941"
                                         target="_blank"><u>Millbrow
                                             Snooker Club, Widnes WA8 6RT</u></a></td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">November 2018</th>
+                            <tr class="yellow two">
+                                <th colspan="5">November 2019</th>
                             </tr>
-                            <tr style="color: yellowgreen">
+                            <tr class="yellowgreen">
                                 <td>Sun</td>
                                 <td>4</td>
                                 <td>EABA</td>
                                 <td>English Amateur 1st Round Qualifiers</td>
                                 <td>Down to 32 - Venues TBC</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>11</td>
                                 <td>EABA</td>
@@ -266,7 +281,7 @@
                                 <td>17-18</td>
                                 <td colspan="3"></td>
                             </tr>
-                            <tr style="color: orange">
+                            <tr class="orange">
                                 <td>Sat - Sun</td>
                                 <td>24-25</td>
                                 <td>EABA</td>
@@ -274,17 +289,17 @@
                                     <br>England, ROI, N. Ireland, Austria</td>
                                 <td>Cue Ball Club, Derby</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">December 2018</th>
+                            <tr class="yellow two">
+                                <th colspan="5">December 2019</th>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>1-2</td>
                                 <td>WBL</td>
                                 <td>British Open</td>
                                 <td></td>
                             </tr>
-                            <tr style="color: darkgrey">
+                            <tr class="darkgrey">
                                 <td>Sun</td>
                                 <td>9</td>
                                 <td>EABA</td>
@@ -296,17 +311,17 @@
                                 <td>15-16</td>
                                 <td colspan="3"></td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">January 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">January 2020</th>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>13</td>
                                 <td>EABA</td>
                                 <td>4th A.B.C. National Ranking Event</td>
                                 <td>Cambridge Snooker Centre</td>
                             </tr>
-                            <tr style="color: orange">
+                            <tr class="orange">
                                 <td>Sat - Sun</td>
                                 <td>19-20</td>
                                 <td>EABA</td>
@@ -314,53 +329,53 @@
                                     <br>England vs N. Ireland</td>
                                 <td>Newark Cons Club</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>26-27</td>
                                 <td>WBL</td>
                                 <td>Scottish Open</td>
                                 <td>TBC</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">February 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">February 2020</th>
                             </tr>
-                            <tr style="color: yellowgreen">
+                            <tr class="yellowgreen">
                                 <td>Sun</td>
                                 <td>3</td>
                                 <td>EABA</td>
                                 <td>English Amateur Regional Intermediate Round</td>
                                 <td>North / South - TBC</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>10</td>
                                 <td>EABA</td>
                                 <td>5th A.B.C. National Ranking Event</td>
                                 <td>Atack Club, Nuneaton</td>
                             </tr>
-                            <tr style="color: yellowgreen">
+                            <tr class="yellowgreen">
                                 <td>Sat - Sun</td>
                                 <td>16-17</td>
                                 <td>EABA</td>
                                 <td>English Amateur Championships (16-8) & (8-4)</td>
                                 <td>Clay Cross, Derbyshire</td>
                             </tr>
-                            <tr style="color: darkgrey">
+                            <tr class="darkgrey">
                                 <td>Sun</td>
                                 <td>24</td>
                                 <td>EABA</td>
                                 <td>Grand Masters Championship Finals</td>
                                 <td>Atack Club, Nuneaton</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">March 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">March 2020</th>
                             </tr>
                             <tr>
                                 <td>Sat - Sun</td>
                                 <td>2-3</td>
                                 <td colspan="3"></td>
                             </tr>
-                            <tr style="color: darkgrey">
+                            <tr class="darkgrey">
                                 <td>Sat - Sun</td>
                                 <td>9-10</td>
                                 <td>EABA</td>
@@ -368,14 +383,14 @@
                                     <br>N. Ireland vs England</td>
                                 <td>TBC</td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>17</td>
                                 <td>EABA</td>
                                 <td>Matchplay Championship (Short format)</td>
                                 <td>Atack Club, Nuneaton</td>
                             </tr>
-                            <tr style="color: yellowgreen">
+                            <tr class="yellowgreen">
                                 <td>Sat - Sun</td>
                                 <td>23-24</td>
                                 <td>EABA</td>
@@ -383,17 +398,17 @@
                                     <br>Semis and Final</td>
                                 <td>Darley Dale</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>30-31</td>
                                 <td>WBL</td>
                                 <td>English Open</td>
                                 <td>TBC</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">April 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">April 2020</th>
                             </tr>
-                            <tr style="color: purple">
+                            <tr class="purple">
                                 <td>Sat - Sun</td>
                                 <td>6-7</td>
                                 <td>EBSS</td>
@@ -407,62 +422,62 @@
                                 <td>Junior Finals Day</td>
                                 <td>Kings Lynn</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>20-21</td>
                                 <td>WBL</td>
                                 <td>UK Open</td>
                                 <td>Northern Snooker Centre, Leeds</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Mon-Fri</td>
                                 <td>22-26</td>
                                 <td>WBL</td>
                                 <td>World Championships (Short Format)</td>
                                 <td>Northern Snooker Centre, Leeds</td>
                             </tr>
-                            <tr style="color: slategrey">
+                            <tr class="slategrey">
                                 <td>Sun</td>
                                 <td>28</td>
                                 <td>EABA</td>
                                 <td>Over 60's Championship</td>
                                 <td>Clay Cross, Derbyshire</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">May 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">May 2020</th>
                             </tr>
-                            <tr style="color: purple">
+                            <tr class="purple">
                                 <td>Thu-Sun</td>
                                 <td>3-6</td>
                                 <td>EBSS</td>
                                 <td>Jersey Tournament</td>
                                 <td></td>
                             </tr>
-                            <tr style="color: red">
+                            <tr class="red">
                                 <td>Sun</td>
                                 <td>12</td>
                                 <td>EABA</td>
                                 <td>Jock MacGregor Handicap</td>
                                 <td>Clay Cross, Derbyshire</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>18-19</td>
                                 <td>WBL</td>
                                 <td>Irish Open</td>
                                 <td>TBC</td>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Mon-Wed</td>
                                 <td>20-22</td>
                                 <td>WBL</td>
                                 <td>European Open</td>
                                 <td>Carlow, ROI - TBC</td>
                             </tr>
-                            <tr style="color: yellow; font-size:2vw">
-                                <th colspan="5">August 2019</th>
+                            <tr class="yellow two">
+                                <th colspan="5">August 2020</th>
                             </tr>
-                            <tr style="color: green">
+                            <tr class="green">
                                 <td>Sat - Sun</td>
                                 <td>17-18</td>
                                 <td>WBL</td>

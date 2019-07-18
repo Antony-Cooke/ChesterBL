@@ -1,3 +1,29 @@
+body.pic {
+    background-image:url('images/billiards.jpg');
+}
+body.colour {
+    background-color: lightgreen;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+table {
+    text-align: center;
+}
 table.adj1 {
     table-layout: auto;
     width: 100%;
@@ -5,14 +31,66 @@ table.adj1 {
 table.adj2 {
     table-layout: auto;
     width: 100%;
+    font-size:12px
 }
 .top2 {
     font-weight: bold;
     font-style: italic;
 }
-h4 {
+.darkred {
+    color: darkred;
+}
+.darkblue {
+    color: darkblue;
+}
+.red {
+    color: red;
+}
+.darkgrey {
+    color: darkgrey;
+}
+.yellowgreen {
+    color: yellowgreen;
+}
+.orange {
+    color: orange;
+}
+.purple {
+    color: purple;
+}
+.yellow {
+    color: yellow;
+}
+.white {
+    color: white;
+}
+.green {
+    color: green;
+}
+.black {
     color: black;
-    font-weight: bold;
-    text-decoration: underline;
+}
+.six {
+    font-size:6vw
+}
+.five {
+    font-size:5vw
+}
+.four {
+    font-size:4vw
+}
+.three {
+    font-size:3vw
+}
+.two {
     font-size:2vw
+}
+.one {
+    font-size:1vw
+}
+.middle {
+    text-align: center;
+}
+.left {
+    text-align: left;
 }

@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="">
 
 </head>
 
-<body style="background-image:url('images/billiards.jpg')">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,7 @@
                     <a class="nav-link" href="Breaks.html">Breaks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Adjusted.html">Adjusted Handicaps</a>
+                    <a class="nav-link" href="handicaps.html">Adjusted Handicaps</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -62,11 +63,15 @@
                         <a class="dropdown-item" href="CayzerRes.html">Tables</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Davies.html">Davies Cup</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Thomas.html">Will Thomas Cup</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -74,8 +79,18 @@
                         Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2018 - 2019</a>
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
                         <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
                     </div>
                 </li>
             </ul>
@@ -88,44 +103,40 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-12'>
-                    <h1 style="text-align:center; color:yellow; font-size:6vw"> Chester Billiards League</h1>
+                    <h1 class="middle yellow six"> Chester Billiards League<br>2019-2020</h1>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 style="text-align:center; color:white; font-size:5vw"> Cayzer Cup Groups</h2>
+                    <h2 class="middle white five"> Cayzer Cup Groups</h2>
                 </div>
                 <div class='col-sm-12'>
                     <table class="table table-bordered table-dark table-hover"
-                        style="text-align:center; color: white; font-size:2vw">
+                        class="middle white two">
                         <thead>
                             <tr>
-                                <th style="color: red">GROUP A</th>
-                                <th style="color: green">GROUP B</th>
+                                <th class="red">GROUP A</th>
+                                <th class="green">GROUP B</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="color: red">Chester Cons</td>
-                                <td style="color: green">Waverton A</td>
+                                <td class="red"></td>
+                                <td class="green"></td>
                             </tr>
                             <tr>
-                                <td style="color: red">Eastham Home Guard</td>
-                                <td style="color: green">Ewloe</td>
+                                <td class="red"></td>
+                                <td class="green"></td>
                             </tr>
                             <tr>
-                                <td style="color: red">Waverton B</td>
-                                <td style="color: green">Upton RBL A</td>
+                                <td class="red"></td>
+                                <td class="green"></td>
                             </tr>
                             <tr>
-                                <td style="color: red">Buckley Cons</td>
-                                <td style="color: green"></td>
-                            </tr>
-                            <tr>
-                                <td style="color: red">Upton RBL B</td>
-                                <td style="color: white"></td>
+                                <td class="red"></td>
+                                <td class="green"></td>
                             </tr>
                             <tr>
                                 <td><a href="CayzerFixA.html">
-                                        <p style="text-align:center;">
+                                        <p class="middle">
                                             <button id="btn"
                                                 class="w3-button w3-border w3-xxlarge w3-black w3-text-white">Group
                                                 A Fixtures</button>
@@ -133,7 +144,7 @@
                                     </a>
                                 </td>
                                 <td><a href="CayzerFixB.html">
-                                        <p style="text-align:center;">
+                                        <p class="middle">
                                             <button id="btn"
                                                 class="w3-button w3-border w3-xxlarge w3-black w3-text-white">Group
                                                 B Fixtures</button>
@@ -151,14 +162,14 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-12'>
-                    <p style="text-align:center; color:yellow; font-size: 3vw">
+                    <p class="middle yellow three">
                         <b>Chester Billiards League are proudly sponsored by</b>
                     </p>
                 </div>
                 <div class='col-sm-12'>
                     <br>
                 </div>
-                <div class='col-sm-12' style="text-align:center" ;>
+                <div class='col-sm-12 middle'>
                     <a href="http://www.whitchurch-sports.co.uk/index.htm">
                         <div>
                             <img src="images/Whitchurch.jpg">

@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="">
 
 </head>
 
-<body style="background-image:url('images/billiards.jpg')">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,7 @@
                     <a class="nav-link" href="Breaks.html">Breaks</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Adjusted.html">Adjusted Handicaps</a>
+                    <a class="nav-link" href="handicaps.html">Adjusted Handicaps</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -62,11 +63,15 @@
                         <a class="dropdown-item" href="CayzerRes.html">Tables</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Davies.html">Davies Cup</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Thomas.html">Will Thomas Cup</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -74,8 +79,18 @@
                         Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2018 - 2019</a>
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
                         <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
                     </div>
                 </li>
             </ul>
@@ -88,15 +103,15 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-12'>
-                    <h1 style="text-align:center; color:yellow; font-size:vw"> Chester Billiards League</h1>
+                    <h1 class="middle yellow six"> Chester Billiards League<br>2019-2020</h1>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 style="text-align:center; color:white; font-size:5vw"> Will Thomas Cup</h2>
+                    <h2 class="middle white five"> Will Thomas Cup</h2>
                 </div>
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:red; font-size:4vw"> Results to our e-mail address please.
+                    <h3 class="middle red four"> Results to our e-mail address please.
                         <br>Or click the button
-                        <p style="text-align:center;">
+                        <p class="middle">
                             <!--<button id="btn1" type="button" class="btn btn-warning">Will Thomas Result</button>-->
                             <button id="btn1" class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Will Thomas
                                 Result</button>
@@ -112,22 +127,21 @@
                     </div>
                 </div>
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:white; font-size:3vw"> Please note the handicaps to be used.
+                    <h3 class="middle white three"> Please note the handicaps to be used.
                         <br>These are the handicaps the players attained prior to the 1st round of the competition.
                     </h3>
                 </div>
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:black; font-size:4vw"> 200 up off handicap</h3>
+                    <h3 class="middle black four"> 200 up off handicap</h3>
                 </div>
-                <!-- FINAL -->
+                <!-- FINAL
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:white; font-size:3vw"> Final - to be played Tuesday 7th May at
-                        Waverton, 7.30pm</h3>
+                    <h3 class="middle white three"> Final - to be played Tuesday 7th May at Waverton, 7.30pm</h3>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover" class="middle  white">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class=" yellow">
                                 <th>Score</th>
                                 <th>Player 1</th>
                                 <th>Handicap</th>
@@ -139,41 +153,38 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>200</td>
-                                <td>Geoff Brassington</td>
-                                <td>-140</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+50</td>
-                                <td>Mike Bennett</td>
-                                <td>103</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 style="text-align:center; color:red; font-size:3vw"> Congratulations to Geoff Brassington, this
-                        year's winner
+                    <h2 class="middle red three">
                     </h2>
-                    <h3 style="text-align:center; color:white; font-size:2vw"> Geoff had 2 century breaks; 143 and 103
-                        unfinished with a 41 thrown in for good measure in a fabulous display of billiards.
-                        <br>Commiserations to Mike Bennett</h3>
+                    <h3 class="middle white two"></h3>
                 </div>
-                <!-- SEMI FINAL-->
+                -->
+                <!-- SEMI FINAL
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:red; font-size:3vw"> Semi Finals - to be played on 24th / 30th
-                        April 2019 at Buckley Cons</h3>
+                    <h3 class="middle red three"> Semi Finals - to be played on TBC at TBC</h3>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 style="text-align:center; color:white; font-size:2vw">
+                    <h2 class="middle white two">
                         <u>Dress Code</u>
                         <br>Now that we are at the Semi-Final stage of the competition, please note that the dress code
                         comes into operation.
                         <br>No Jeans, trainers or collarless shirts please.</h2>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover" class="middle  white">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class=" yellow">
                                 <th>Match</th>
                                 <th>Date / Time</th>
                                 <th>Home</th>
@@ -186,35 +197,34 @@
                         <tbody>
                             <tr>
                                 <td>SF1</td>
-                                <td>24/04/19 19:00</td>
-                                <td><strike>Tony Cooke (134)</strike></td>
-                                <td>+25</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>-140</td>
-                                <td style="color: red">Geoff Brassington (200)</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>SF2</td>
-                                <td>30/04/19 19:00</td>
-                                <td style="color: red">Mike Bennett (200)</td>
-                                <td>+50</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+5</td>
-                                <td><strike>Alan Norwood (182)</strike></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 -->
-                <!-- THIRD ROUND -->
+                <!-- THIRD ROUND
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:white; font-size:3vw"> 3rd Round - to be played on Date
-                        Indicated</h3>
+                    <h3 class="middle white three"> 3rd Round - to be played on TBC</h3>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover middle white">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class=" yellow">
                                 <th>Match</th>
                                 <th>Place</th>
                                 <th>Date / Time</th>
@@ -228,56 +238,56 @@
                         <tbody>
                             <tr>
                                 <td>QF4</td>
-                                <td>Waverton MI</td>
-                                <td>26/03/19 19:30</td>
-                                <td><strike>Darren Robinson</strike></td>
-                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+25</td>
-                                <td style="color: red">Tony Cooke</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>QF1</td>
-                                <td>Upton RBL</td>
-                                <td>26/03/19 19:30</td>
-                                <td style="color: red">Geoff Brassington</td>
-                                <td>-140</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+25</td>
-                                <td><strike>Roy Willis</strike></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>QF2</td>
-                                <td>Eastham Home Guard</td>
-                                <td>02/04/19 19:30</td>
-                                <td style="color: red">Mike Bennett</td>
-                                <td>+50</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>-15</td>
-                                <td><strike>Phil Whiteside</strike></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>QF3</td>
-                                <td>Ewloe</td>
-                                <td>26/03/19 19:30</td>
-                                <td style="color: red">Alan Norwood</td>
-                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+90</td>
-                                <td><strike>Stuart Nicholas</strike></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <!-- SECOND ROUND -->
+                -->
+                <!-- SECOND ROUND
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:white; font-size:3vw"> 2nd Round - to be played on 5th February
-                        2019</h3>
+                    <h3 class="middle white three"> 2nd Round - to be played on TBC</h3>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover middle white">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class=" yellow">
                                 <th>Match</th>
                                 <th>Place</th>
                                 <th>Time</th>
@@ -290,97 +300,97 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>2R5</td>
-                                <td>Waverton MI</td>
-                                <td>19:30</td>
-                                <td style="color: red">Darren Robinson</td>
-                                <td>+5</td>
-                                <td>v</td>
-                                <td>-10</td>
-                                <td><strike>Phil Woolland</strike></td>
-                            </tr>
-                            <tr>
-                                <td>2R6</td>
-                                <td>Eastham Home Guard</td>
-                                <td>19/02/19</td>
-                                <td style="color: red">Tony Cooke</td>
-                                <td>+25</td>
-                                <td>v</td>
-                                <td>+45</td>
-                                <td><strike>Andy Duckers</strike></td>
-                            </tr>
-                            <tr>
                                 <td>2R1</td>
-                                <td>Buckley Conservative Club</td>
-                                <td>19:30</td>
-                                <td><strike>Gordy Edwards</strike></td>
-                                <td>+90</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>-140</td>
-                                <td style="color: red">Geoff Brassington</td>
-                            </tr>
-                            <tr>
-                                <td>2R3</td>
-                                <td>Buckley Conservative Club</td>
-                                <td>20:15</td>
-                                <td><strike>Bryn Hughes</strike></td>
-                                <td>+95</td>
-                                <td>v</td>
-                                <td>+25</td>
-                                <td style="color: red">Roy Willis</td>
-                            </tr>
-                            <tr>
-                                <td>2R8</td>
-                                <td>Eastham Home Guard</td>
-                                <td>20:15</td>
-                                <td style="color: red">Mike Bennett</td>
-                                <td>+50</td>
-                                <td>v</td>
-                                <td>-60</td>
-                                <td><strike>Tony Done</strike></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>2R2</td>
-                                <td>Buckley Conservative Club</td>
-                                <td>19:30</td>
-                                <td><strike>Nathan Gartland</strike></td>
-                                <td>115</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>-15</td>
-                                <td style="color: red">Phil Whiteside</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2R3</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>2R4</td>
-                                <td>Ewloe Social Club</td>
-                                <td>19:30</td>
-                                <td style="color: red">Alan Norwood</td>
-                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+85</td>
-                                <td><strike>Barry Evans</strike></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2R5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2R6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>2R7</td>
-                                <td>Eastham Home Guard</td>
-                                <td>19:30</td>
-                                <td><strike>Steve Bradshaw</strike></td>
-                                <td>-45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+90</td>
-                                <td style="color: red">Stuart Nicholas</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2R8</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+                -->
                 <!-- FIRST ROUND-->
                 <div class='col-sm-12'>
-                    <h3 style="text-align:center; color:white; font-size:3vw"> 1st Round - to be played on 13th
-                        November 2018</h3>
+                    <h3 class="middle white three"> 1st Round - to be played on TBC</h3>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" style="text-align:center; color: white">
+                    <table class="table table-bordered table-dark table-hover middle white">
                         <thead>
-                            <tr style="color: yellow">
+                            <tr class=" yellow">
                                 <th>Match</th>
                                 <th>Place</th>
                                 <th>Time</th>
@@ -392,164 +402,165 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <td>1R16</td>
-                            <td>Waverton</td>
-                            <td>N/A</td>
-                            <td style="color: red">Darren Robinson</td>
-                            <td>+5</td>
-                            <td>v</td>
-                            <td></td>
-                            <td><strike>BYE</strike></td>
-                            </tr>
                             <tr>
-                                <td>1R11</td>
-                                <td>Eastham Home Guard</td>
-                                <td>N/A</td>
-                                <td style="color: red">Phil Woolland</td>
-                                <td>-10</td>
+                                <td>1R1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
-                            </tr>
-                            <tr>
-                                <td>1R13</td>
-                                <td>Eastham Home Guard</td>
-                                <td>N/A</td>
-                                <td style="color: red">Tony Cooke</td>
-                                <td>+25</td>
-                                <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
                             </tr>
                             <tr>
                                 <td>1R2</td>
-                                <td>Buckley Cons</td>
-                                <td>19:30</td>
-                                <td><strike>Malcolm Hughes (198)</strike></td>
-                                <td>+75</td>
-                                <td>v</td>
-                                <td>+45</td>
-                                <td style="color: red">Andy Duckers (200)</td>
-                            </tr>
-                            <tr>
-                                <td>1R7</td>
-                                <td>Broughton</td>
-                                <td>19:30</td>
-                                <td><strike>Glynn Wilcock</strike></td>
-                                <td>+50</td>
-                                <td>v</td>
-                                <td>+90</td>
-                                <td style="color: red">Gordy Edwards</td>
-                            </tr>
-                            <tr>
-                                <td>1R9</td>
-                                <td>Eastham Home Guard</td>
-                                <td>Played 06/11/18</td>
-                                <td><strike>Eddie Duggan (106)</strike></td>
-                                <td>-70</td>
-                                <td>v</td>
-                                <td>-140</td>
-                                <td style="color: red">Geoff Brassington (200)</td>
-                            </tr>
-                            <tr>
-                                <td>1R14</td>
-                                <td>Buckley Cons</td>
-                                <td>N/A</td>
-                                <td style="color: red">Bryn Hughes</td>
-                                <td>+95</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
-                            </tr>
-                            <tr>
-                                <td>1R6</td>
-                                <td>Broughton</td>
-                                <td>19:30</td>
-                                <td><strike>Frank Long</strike></td>
-                                <td>+45</td>
-                                <td>v</td>
-                                <td>+25</td>
-                                <td style="color: red">Roy Willis</td>
-                            </tr>
-                            <tr>
-                                <td>1R8</td>
-                                <td>Eastham Home Guard</td>
-                                <td style="color: red">16:00</td>
-                                <td style="color: red">Mike Bennett (200)</td>
-                                <td>+50</td>
-                                <td>v</td>
-                                <td>+105</td>
-                                <td><strike>Andy Sutton-Thompson (183)</strike></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>1R3</td>
-                                <td>Ewloe Social Club</td>
-                                <td>19:30</td>
-                                <td><strike>Ken Massey</strike></td>
-                                <td>+55</td>
-                                <td>v</td>
-                                <td>-60</td>
-                                <td style="color: red">Tony Done</td>
-                            </tr>
-                            <tr>
-                                <td>1R15</td>
-                                <td>Buckley Cons</td>
-                                <td>N/A</td>
-                                <td style="color: red">Nathan Gartland</td>
-                                <td>+115</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>1R4</td>
-                                <td>Ewloe Social Club</td>
-                                <td>19:30</td>
-                                <td><strike>Ivor Norbury</strike></td>
-                                <td>+50</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>-15</td>
-                                <td style="color: red">Phil Whiteside</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>1R5</td>
-                                <td>Ewloe Social Club</td>
-                                <td style="color: red">Rearranged</td>
-                                <td style="color: red">Alan Norwood (200)</td>
-                                <td>+5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+95</td>
-                                <td><strike>Josh Nicholas (137)</strike></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R7</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R8</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R9</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>1R10</td>
-                                <td>Ewloe</td>
-                                <td>N/A</td>
-                                <td style="color: red">Barry Evans</td>
-                                <td>+85</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R11</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>1R12</td>
-                                <td>Eastham Home Guard</td>
-                                <td>N/A</td>
-                                <td style="color: red">Steve Bradshaw</td>
-                                <td>-45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
                                 <td></td>
-                                <td><strike>BYE</strike></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>1R1</td>
-                                <td>Upton RBL</td>
-                                <td>19:30</td>
-                                <td><strike>Colin Jones</strike></td>
-                                <td>-10</td>
+                                <td>1R13</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                                 <td>v</td>
-                                <td>+90</td>
-                                <td style="color: red">Stuart Nicholas</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R14</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R15</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1R16</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>v</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                         </tbody>
@@ -560,14 +571,14 @@
             <div class='Ads'>
                 <div class='row'>
                     <div class='col-sm-12'>
-                        <p style="text-align:center; color:yellow; font-size: 3vw">
+                        <p class="middle yellow three">
                             <b>Chester Billiards League are proudly sponsored by</b>
                         </p>
                     </div>
                     <div class='col-sm-12'>
                         <br>
                     </div>
-                    <div class='col-sm-12' style="text-align:center" ;>
+                    <div class='col-sm-12 middle'>
                         <a href="http://www.whitchurch-sports.co.uk/index.htm">
                             <div>
                                 <img src="images/Whitchurch.jpg">
