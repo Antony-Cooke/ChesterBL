@@ -94,3 +94,12 @@ table.adj2 {
 .left {
     text-align: left;
 }
+input {
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    height: 40px;
+}
