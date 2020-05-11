@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Detailed Statistics</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <!-- Sort Script-->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="dist/sortable-tables.min.css">
+    <script src="dist/sortable-tables.min.js"></script>
+
+</head>
+
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Fixtures.html">Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Table.html">League Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Breaks.html">Breaks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Handicaps.html">Adjusted Handicaps</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cayzer Cup
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
+                        <a class="dropdown-item" href="CayzerGrp.html">Groups</a>
+                        <a class="dropdown-item" href="CayzerFixA.html">Group A Fixtures</a>
+                        <a class="dropdown-item" href="CayzerFixB.html">Group B Fixtures</a>
+                        <a class="dropdown-item" href="CayzerRes.html">Tables</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class='main'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h1 class="middle yellow five">Chester Billiards League<br>2019-2020</h1>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white five">Detailed Statistics</h2>
+                </div>
+                <div class='col-sm-6'>
+                    <a href="StatsHome.html">
+                        <p class="middle">
+                            <button id="btn"
+                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Home Stats</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-6'>
+                    <a href="StatsAway.html">
+                        <p class="middle">
+                            <button id="btn"
+                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Away Stats</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover sortable-table" class="middle white">
+                        <thead>
+                            <tr class="yellow"><th>Team</th><th>Player</th><th class="numeric-sort">Played</th><th class="numeric-sort">Won</th><th class="numeric-sort">Lost</th><th class="numeric-sort">For</th><th class="numeric-sort">Against</th><th class="numeric-sort">Aggregate</th><th class="numeric-sort">Average</th><th class="numeric-sort">Average For</th><th class="numeric-sort">Average Against</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>EHG</td><td>Antony Cooke</td><td>12</td><td>9</td><td>3</td><td>2250</td><td>2115</td><td>135</td><td>11.25</td><td>187.5</td><td>176.25</td></tr>
+                            <tr><td>EHG</td><td>Eddie Duggan</td><td>2</td><td>2</td><td>0</td><td>400</td><td>346</td><td>54</td><td>27</td><td>200</td><td>173</td></tr>
+                            <tr><td>EHG</td><td>Mike Bennett</td><td>13</td><td>6</td><td>7</td><td>2277</td><td>2414</td><td>-137</td><td>-10.54</td><td>175.15</td><td>185.69</td></tr>
+                            <tr><td>EHG</td><td>Phil Woolland</td><td>11</td><td>4</td><td>7</td><td>1848</td><td>2125</td><td>-277</td><td>-25.18</td><td>168</td><td>193.18</td></tr>
+                            <tr><td>EHG</td><td>Steve Bradshaw</td><td>13</td><td>6</td><td>7</td><td>1994</td><td>2291</td><td>-297</td><td>-22.85</td><td>153.38</td><td>176.23</td></tr>
+                            <tr><td>EHG</td><td>Terry McAdam</td><td>4</td><td>2</td><td>2</td><td>663</td><td>757</td><td>-94</td><td>-23.5</td><td>165.75</td><td>189.25</td></tr>
+                            <tr><td>EWLOE A</td><td>Alan Norwood</td><td>14</td><td>9</td><td>5</td><td>2511</td><td>2501</td><td>10</td><td>0.71</td><td>179.36</td><td>178.64</td></tr>
+                            <tr><td>EWLOE A</td><td>David Andrews</td><td>5</td><td>4</td><td>1</td><td>984</td><td>808</td><td>176</td><td>35.2</td><td>196.8</td><td>161.6</td></tr>
+                            <tr><td>EWLOE A</td><td>Glyn Wilcock</td><td>7</td><td>4</td><td>3</td><td>1260</td><td>1230</td><td>30</td><td>4.29</td><td>180</td><td>175.71</td></tr>
+                            <tr><td>EWLOE A</td><td>Ivor Norbury</td><td>9</td><td>5</td><td>4</td><td>1629</td><td>1668</td><td>-39</td><td>-4.33</td><td>181</td><td>185.33</td></tr>
+                            <tr><td>EWLOE A</td><td>Ken Massey</td><td>12</td><td>6</td><td>6</td><td>2188</td><td>2190</td><td>-2</td><td>-0.17</td><td>182.33</td><td>182.5</td></tr>
+                            <tr><td>EWLOE A</td><td>Steve Evans</td><td>8</td><td>6</td><td>2</td><td>1569</td><td>1315</td><td>254</td><td>31.75</td><td>196.13</td><td>164.38</td></tr>
+                            <tr><td>EWLOE B</td><td>Bryn Hughes</td><td>13</td><td>6</td><td>7</td><td>2454</td><td>2210</td><td>244</td><td>18.77</td><td>188.77</td><td>170</td></tr>
+                            <tr><td>EWLOE B</td><td>Gordy Edwards</td><td>12</td><td>6</td><td>6</td><td>2297</td><td>2014</td><td>283</td><td>23.58</td><td>191.42</td><td>167.83</td></tr>
+                            <tr><td>EWLOE B</td><td>Graham Martin</td><td>12</td><td>7</td><td>5</td><td>2280</td><td>2240</td><td>40</td><td>3.33</td><td>190</td><td>186.67</td></tr>
+                            <tr><td>EWLOE B</td><td>Malcolm Hughes</td><td>4</td><td>1</td><td>3</td><td>698</td><td>775</td><td>-77</td><td>-19.25</td><td>174.5</td><td>193.75</td></tr>
+                            <tr><td>EWLOE B</td><td>Nathan Gartland</td><td>11</td><td>7</td><td>4</td><td>2121</td><td>1970</td><td>151</td><td>13.73</td><td>192.82</td><td>179.09</td></tr>
+                            <tr><td>UPTON RBL A</td><td>Colin Jones</td><td>13</td><td>7</td><td>6</td><td>2326</td><td>2316</td><td>10</td><td>0.77</td><td>178.92</td><td>178.15</td></tr>
+                            <tr><td>UPTON RBL A</td><td>Garry Morley</td><td>8</td><td>6</td><td>2</td><td>1469</td><td>1336</td><td>133</td><td>16.63</td><td>183.63</td><td>167</td></tr>
+                            <tr><td>UPTON RBL A</td><td>John Over (Jnr)</td><td>6</td><td>5</td><td>1</td><td>1177</td><td>873</td><td>304</td><td>50.67</td><td>196.17</td><td>145.5</td></tr>
+                            <tr><td>UPTON RBL A</td><td>Mark Eyton</td><td>11</td><td>3</td><td>8</td><td>2009</td><td>2072</td><td>-63</td><td>-5.73</td><td>182.64</td><td>188.36</td></tr>
+                            <tr><td>UPTON RBL A</td><td>Shaun Steadman</td><td>12</td><td>5</td><td>7</td><td>2219</td><td>2242</td><td>-23</td><td>-1.92</td><td>184.92</td><td>186.83</td></tr>
+                            <tr><td>UPTON RBL B</td><td>Alan Tomlinson</td><td>14</td><td>3</td><td>11</td><td>2271</td><td>2549</td><td>-278</td><td>-19.86</td><td>162.21</td><td>182.07</td></tr>
+                            <tr><td>UPTON RBL B</td><td>Brian Sharratt</td><td>1</td><td>0</td><td>1</td><td>185</td><td>200</td><td>-15</td><td>-15</td><td>185</td><td>200</td></tr>
+                            <tr><td>UPTON RBL B</td><td>Dave Nicholas</td><td>8</td><td>0</td><td>8</td><td>1319</td><td>1600</td><td>-281</td><td>-35.13</td><td>164.88</td><td>200</td></tr>
+                            <tr><td>UPTON RBL B</td><td>Jerry Banks</td><td>9</td><td>4</td><td>5</td><td>1444</td><td>1585</td><td>-141</td><td>-15.67</td><td>160.44</td><td>176.11</td></tr>
+                            <tr><td>UPTON RBL B</td><td>John Griffiths</td><td>14</td><td>6</td><td>8</td><td>2405</td><td>2409</td><td>-4</td><td>-0.29</td><td>171.79</td><td>172.07</td></tr>
+                            <tr><td>UPTON RBL B</td><td>Leo Jackson</td><td>10</td><td>4</td><td>6</td><td>1653</td><td>1661</td><td>-8</td><td>-0.8</td><td>165.3</td><td>166.1</td></tr>
+                            <tr><td>UPTON RBL C</td><td>Andy Duckers</td><td>5</td><td>2</td><td>3</td><td>832</td><td>918</td><td>-86</td><td>-17.2</td><td>166.4</td><td>183.6</td></tr>
+                            <tr><td>UPTON RBL C</td><td>Anthony Done</td><td>9</td><td>5</td><td>4</td><td>1555</td><td>1685</td><td>-130</td><td>-14.44</td><td>172.78</td><td>187.22</td></tr>
+                            <tr><td>UPTON RBL C</td><td>Geoff Brassington</td><td>14</td><td>12</td><td>2</td><td>2494</td><td>2291</td><td>203</td><td>14.5</td><td>178.14</td><td>163.64</td></tr>
+                            <tr><td>UPTON RBL C</td><td>Phil Whiteside</td><td>14</td><td>5</td><td>9</td><td>2122</td><td>2628</td><td>-506</td><td>-36.14</td><td>151.57</td><td>187.71</td></tr>
+                            <tr><td>UPTON RBL C</td><td>Steve Williams</td><td>14</td><td>7</td><td>7</td><td>2487</td><td>2479</td><td>8</td><td>0.57</td><td>177.64</td><td>177.07</td></tr>
+                            <tr><td>WAVERTON A</td><td>Andy Sutton-Thompson</td><td>13</td><td>4</td><td>9</td><td>2330</td><td>2502</td><td>-172</td><td>-13.23</td><td>179.23</td><td>192.46</td></tr>
+                            <tr><td>WAVERTON A</td><td>John O'Boyle</td><td>11</td><td>6</td><td>5</td><td>2022</td><td>1995</td><td>27</td><td>2.45</td><td>183.82</td><td>181.36</td></tr>
+                            <tr><td>WAVERTON A</td><td>Josh Nicholas</td><td>11</td><td>4</td><td>7</td><td>2038</td><td>2004</td><td>34</td><td>3.09</td><td>185.27</td><td>182.18</td></tr>
+                            <tr><td>WAVERTON A</td><td>Mark Lloyd</td><td>9</td><td>4</td><td>5</td><td>1662</td><td>1598</td><td>64</td><td>7.11</td><td>184.67</td><td>177.56</td></tr>
+                            <tr><td>WAVERTON A</td><td>Roger Miln</td><td>1</td><td>0</td><td>1</td><td>156</td><td>200</td><td>-44</td><td>-44</td><td>156</td><td>200</td></tr>
+                            <tr><td>WAVERTON A</td><td>Stuart Nicholas</td><td>11</td><td>6</td><td>5</td><td>2015</td><td>1949</td><td>66</td><td>6</td><td>183.18</td><td>177.18</td></tr>
+                            <tr><td>WAVERTON B</td><td>Brian Gresty</td><td>12</td><td>5</td><td>7</td><td>2027</td><td>2083</td><td>-56</td><td>-4.67</td><td>168.92</td><td>173.58</td></tr>
+                            <tr><td>WAVERTON B</td><td>Darren Robinson</td><td>13</td><td>9</td><td>4</td><td>2252</td><td>1891</td><td>361</td><td>27.77</td><td>173.23</td><td>145.46</td></tr>
+                            <tr><td>WAVERTON B</td><td>John Stoneley</td><td>1</td><td>1</td><td>0</td><td>200</td><td>194</td><td>6</td><td>6</td><td>200</td><td>194</td></tr>
+                            <tr><td>WAVERTON B</td><td>Keith Speed</td><td>1</td><td>0</td><td>1</td><td>195</td><td>200</td><td>-5</td><td>-5</td><td>195</td><td>200</td></tr>
+                            <tr><td>WAVERTON B</td><td>Roy Willis</td><td>8</td><td>4</td><td>4</td><td>1142</td><td>1225</td><td>-83</td><td>-10.38</td><td>142.75</td><td>153.13</td></tr>
+                            <tr><td>WAVERTON B</td><td>Sid Craven</td><td>14</td><td>9</td><td>5</td><td>2481</td><td>2272</td><td>209</td><td>14.93</td><td>177.21</td><td>162.29</td></tr>
+                            <tr><td>WAVERTON B</td><td>Tom Hughes</td><td>7</td><td>2</td><td>5</td><td>1239</td><td>1223</td><td>16</td><td>2.29</td><td>177</td><td>174.71</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='Ads'>
+                    <div class='col-sm-12'>
+                        <p class="middle yellow three">
+                            <b>Chester Billiards League are proudly sponsored by</b>
+                        </p>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                    <div class='col-sm-12 middle'>
+                        <a href="http://www.whitchurch-sports.co.uk/index.htm">
+                            <div>
+                                <img src="images/Whitchurch.jpg">
+                                <!--
+                                <img src="images/Whitchurch.jpg" width="480" height="43">
+                                -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
