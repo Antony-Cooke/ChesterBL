@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Individual Home Results</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <!-- Sort Script-->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="dist/sortable-tables.min.css">
+    <script src="dist/sortable-tables.min.js"></script>
+
+</head>
+
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Fixtures.html">Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Table.html">League Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Breaks.html">Breaks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Handicaps.html">Adjusted Handicaps</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cayzer Cup
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
+                        <a class="dropdown-item" href="CayzerGrp.html">Groups</a>
+                        <a class="dropdown-item" href="CayzerFixA.html">Group A Fixtures</a>
+                        <a class="dropdown-item" href="CayzerFixB.html">Group B Fixtures</a>
+                        <a class="dropdown-item" href="CayzerRes.html">Tables</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class='main'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h1 class="middle yellow five">Chester Billiards League<br>2019-2020</h1>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white five">Individual Results - Home</h2>
+                </div>
+                <div class='col-sm-6'>
+                    <a href="StatsHome.html">
+                        <p class="middle">
+                            <button id="btn"
+                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Home Stats</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-6'>
+                    <a href="StatsAway.html">
+                        <p class="middle">
+                            <button id="btn"
+                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Away Stats</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover sortable-table table-responsive" class="middle white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Team</th>
+                                <th>Player</th>
+                                <th class="numeric-sort results"><p>Antony Cooke</p></th>
+                                <th class="numeric-sort results"><p>Eddie Duggan</p></th>
+                                <th class="numeric-sort results"><p>Mike Bennett</p></th>
+                                <th class="numeric-sort results"><p>Phil Woolland</p></th>
+                                <th class="numeric-sort results"><p>Steve Bradshaw</p></th>
+                                <th class="numeric-sort results"><p>Terry McAdam</p></th>
+                                <th class="numeric-sort results"><p>Alan Norwood</p></th>
+                                <th class="numeric-sort results"><p>David Andrews</p></th>
+                                <th class="numeric-sort results"><p>Glyn Wilcock</p></th>
+                                <th class="numeric-sort results"><p>Ivor Norbury</p></th>
+                                <th class="numeric-sort results"><p>Ken Massey</p></th>
+                                <th class="numeric-sort results"><p>Steve Evans</p></th>
+                                <th class="numeric-sort results"><p>Bryn Hughes</p></th>
+                                <th class="numeric-sort results"><p>Gordy Edwards</p></th>
+                                <th class="numeric-sort results"><p>Graham Martin</p></th>
+                                <th class="numeric-sort results"><p>Malcolm Hughes</p></th>
+                                <th class="numeric-sort results"><p>Nathan Gartland</p></th>
+                                <th class="numeric-sort results"><p>Colin Jones</p></th>
+                                <th class="numeric-sort results"><p>Garry Morley</p></th>
+                                <th class="numeric-sort results"><p>John Over (Jnr)</p></th>
+                                <th class="numeric-sort results"><p>Mark Eyton</p></th>
+                                <th class="numeric-sort results"><p>Shaun Steadman</p></th>
+                                <th class="numeric-sort results"><p>Alan Tomlinson</p></th>
+                                <th class="numeric-sort results"><p>Brian Sharratt</p></th>
+                                <th class="numeric-sort results"><p>Dave Nicholas</p></th>
+                                <th class="numeric-sort results"><p>Jerry Banks</p></th>
+                                <th class="numeric-sort results"><p>John Griffiths</p></th>
+                                <th class="numeric-sort results"><p>Leo Jackson</p></th>
+                                <th class="numeric-sort results"><p>Andy Duckers</p></th>
+                                <th class="numeric-sort results"><p>Anthony Done</p></th>
+                                <th class="numeric-sort results"><p>Geoff Brassington</p></th>
+                                <th class="numeric-sort results"><p>Phil Whiteside</p></th>
+                                <th class="numeric-sort results"><p>Steve Williams</p></th>
+                                <th class="numeric-sort results"><p>Andy ST</p></th>
+                                <th class="numeric-sort results"><p>John O'Boyle</p></th>
+                                <th class="numeric-sort results"><p>Josh Nicholas</p></th>
+                                <th class="numeric-sort results"><p>Mark Lloyd</p></th>
+                                <th class="numeric-sort results"><p>Roger Miln</p></th>
+                                <th class="numeric-sort results"><p>Stuart Nicholas</p></th>
+                                <th class="numeric-sort results"><p>Brian Gresty</p></th>
+                                <th class="numeric-sort results"><p>Darren Robinson</p></th>
+                                <th class="numeric-sort results"><p>John Stoneley</p></th>
+                                <th class="numeric-sort results"><p>Keith Speed</p></th>
+                                <th class="numeric-sort results"><p>Roy Willis</p></th>
+                                <th class="numeric-sort results"><p>Sid Craven</p></th>
+                                <th class="numeric-sort results"><p>Tom Hughes</p></th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>EHG</td><td>Antony Cooke</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>150</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>122</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EHG</td><td>Eddie Duggan</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td></tr>
+                            <tr><td>EHG</td><td>Mike Bennett</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>183</td><td></td><td></td><td>181</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td></tr>
+                            <tr><td>EHG</td><td>Phil Woolland</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>167</td><td></td><td></td><td></td><td>116</td><td></td><td></td><td></td><td>183</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EHG</td><td>Steve Bradshaw</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>100</td><td></td><td>174</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EHG</td><td>Terry McAdam</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>124</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE A</td><td>Alan Norwood</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>169</td><td></td><td></td><td></td><td></td><td></td><td>176</td><td></td><td></td><td></td><td>129</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE A</td><td>David Andrews</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE A</td><td>Glyn Wilcock</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td></tr>
+                            <tr><td>EWLOE A</td><td>Ivor Norbury</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>122</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>172</td><td></td><td></td></tr>
+                            <tr><td>EWLOE A</td><td>Ken Massey</td><td>176</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>172</td><td></td><td></td><td></td><td>185</td><td></td><td></td><td></td><td></td><td>181</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>127</td><td></td></tr>
+                            <tr><td>EWLOE A</td><td>Steve Evans</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE B</td><td>Bryn Hughes</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>156</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>167</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE B</td><td>Gordy Edwards</td><td></td><td></td><td></td><td>199</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>193</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>179</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td></tr>
+                            <tr><td>EWLOE B</td><td>Graham Martin</td><td>188</td><td></td><td></td><td></td><td></td><td></td><td></td><td>184</td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>189</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>163</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE B</td><td>Malcolm Hughes</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>178</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>EWLOE B</td><td>Nathan Gartland</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>175</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>185</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>169</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td></tr>
+                            <tr><td>UPTON RBL A</td><td>Colin Jones</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>183</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>180</td><td></td><td></td><td></td><td></td><td></td><td></td><td>172</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td></tr>
+                            <tr><td>UPTON RBL A</td><td>Garry Morley</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL A</td><td>John Over (Jnr)</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>177</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL A</td><td>Mark Eyton</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>184</td><td></td><td></td><td>169</td><td></td><td></td><td></td><td></td><td></td><td>187</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL A</td><td>Shaun Steadman</td><td>188</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>181</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>156</td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>Alan Tomlinson</td><td></td><td></td><td></td><td></td><td></td><td>167</td><td>130</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>179</td><td></td><td></td><td></td><td>200</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>181</td><td></td><td></td><td></td><td></td><td>170</td><td></td><td></td><td></td><td></td><td></td><td>160</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>Brian Sharratt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>Dave Nicholas</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>170</td><td></td><td></td><td></td><td>181</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td>133</td><td></td><td></td><td></td><td></td><td></td><td>165</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>Jerry Banks</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>185</td><td></td><td></td><td></td><td></td><td>145</td><td></td><td></td><td></td><td></td><td>168</td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td>184</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>John Griffiths</td><td></td><td></td><td></td><td></td><td>183</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>163</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td>180</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>183</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL B</td><td>Leo Jackson</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>174</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>179</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td></tr>
+                            <tr><td>UPTON RBL C</td><td>Andy Duckers</td><td>111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL C</td><td>Anthony Done</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>119</td><td></td><td></td><td></td><td></td><td></td><td>152</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>135</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL C</td><td>Geoff Brassington</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>77</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>17</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL C</td><td>Phil Whiteside</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td>107</td><td></td><td></td><td></td><td></td><td></td><td></td><td>81</td><td></td><td></td><td></td><td></td><td></td><td>87</td><td></td><td></td><td></td><td></td><td></td><td></td><td>123</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td>185</td><td></td><td></td><td></td><td></td><td></td><td></td><td>97</td><td></td><td></td></tr>
+                            <tr><td>UPTON RBL C</td><td>Steve Williams</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>160</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>79</td><td></td></tr>
+                            <tr><td>WAVERTON A</td><td>Andy Sutton-Thompson</td><td>182</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>178</td><td></td><td></td><td></td><td></td><td></td><td></td><td>183</td><td></td><td></td><td>150</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>168</td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>190</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>WAVERTON A</td><td>John O'Boyle</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td>167</td></tr>
+                            <tr><td>WAVERTON A</td><td>Josh Nicholas</td><td></td><td></td><td>189</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>167</td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>WAVERTON A</td><td>Mark Lloyd</td><td></td><td></td><td></td><td></td><td></td><td>190</td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>174</td><td></td><td></td><td></td><td></td><td></td><td></td><td>193</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td>143</td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>WAVERTON A</td><td>Roger Miln</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>156</td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                            <tr><td>WAVERTON A</td><td>Stuart Nicholas</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>158</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td></td><td></td><td></td><td></td><td></td><td>197</td><td></td></tr>
+                            <tr><td>WAVERTON B</td><td>Brian Gresty</td><td>192</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>186</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td>160</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>168</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>Darren Robinson</td><td></td><td></td><td></td><td></td><td></td><td></td><td>194</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>167</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>168</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>John Stoneley</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>Keith Speed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>Roy Willis</td><td></td><td></td><td></td><td></td><td>148</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>169</td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>Sid Craven</td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>161</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                            <tr><td>WAVERTON B</td><td>Tom Hughes</td><td></td><td></td><td></td><td>200</td><td></td><td></td><td></td><td></td><td></td><td></td><td>197</td><td></td><td></td><td></td><td></td><td>175</td><td></td><td></td><td></td><td>164</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>142</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='Ads'>
+                    <div class='col-sm-12'>
+                        <p class="middle yellow three">
+                            <b>Chester Billiards League are proudly sponsored by</b>
+                        </p>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                    <div class='col-sm-12 middle'>
+                        <a href="http://www.whitchurch-sports.co.uk/index.htm">
+                            <div>
+                                <img src="images/Whitchurch.jpg">
+                                <!--
+                                <img src="images/Whitchurch.jpg" width="480" height="43">
+                                -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
