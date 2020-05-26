@@ -31,24 +31,10 @@ table.adj1 {
 table.adj2 {
     table-layout: auto;
     width: 100%;
-    font-size:12px
+    font-size:12px;
 }
-.results {
-    text-align:center;
-    white-space:nowrap;
-    transform: rotate(90deg);
-}
-.results > p {
-    margin:0 -700px;/* virtually reduce space needed on width to very little */
-    display:inline-block;
-}
-.results p:before {
-    content:'';
-    width:0px;
-    padding-top:110%;
-    /* takes width as reference, + 10% for faking some extra padding */
-    display:inline-block;
-    vertical-align:middle;
+.eight {
+    font-size:12px;
 }
 .top2 {
     font-weight: bold;
@@ -88,22 +74,22 @@ table.adj2 {
     color: black;
 }
 .six {
-    font-size:6vw
+    font-size:6vw;
 }
 .five {
-    font-size:5vw
+    font-size:5vw;
 }
 .four {
-    font-size:4vw
+    font-size:4vw;
 }
 .three {
-    font-size:3vw
+    font-size:3vw;
 }
 .two {
-    font-size:2vw
+    font-size:2vw;
 }
 .one {
-    font-size:1vw
+    font-size:1vw;
 }
 .middle {
     text-align: center;

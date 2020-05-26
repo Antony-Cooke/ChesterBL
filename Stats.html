@@ -2,6 +2,16 @@
 <html>
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N7VPSQ2');</script>
+    <!-- End Google Tag Manager -->
     <title>Detailed Statistics</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,15 +23,20 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="main.css" type="text/css">
 
+    <!-- JavaScript-->
+    <script language="javascript" type="text/javascript" src="main.js"></script>
     <!-- Sort Script-->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="dist/sortable-tables.min.css">
     <script src="dist/sortable-tables.min.js"></script>
-
 </head>
 
 <body class="pic">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7VPSQ2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,6 +73,19 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Statistics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Stats.html">Stats from All Matches</a>
+                        <a class="dropdown-item" href="StatsHome.html">Stats from Home Matches</a>
+                        <a class="dropdown-item" href="StatsAway.html">Stats from Away Games</a>
+                        <a class="dropdown-item" href="IndHome.html">Individual Match Scores (H)</a>
+                        <a class="dropdown-item" href="IndAway.html">Individual Match Scores (A)</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Cayzer Cup
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,8 +97,8 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Individual Comps
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,8 +117,8 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Archive
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -111,28 +139,24 @@
                     <h1 class="middle yellow five">Chester Billiards League<br>2019-2020</h1>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 class="middle white five">Detailed Statistics</h2>
+                    <h2 class="middle white five">Statistics from all matches</h2>
                 </div>
-                <div class='col-sm-6'>
-                    <a href="StatsHome.html">
-                        <p class="middle">
-                            <button id="btn"
-                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Home Stats</button>
-                        </p>
-                    </a>
-                </div>
-                <div class='col-sm-6'>
-                    <a href="StatsAway.html">
-                        <p class="middle">
-                            <button id="btn"
-                                class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Away Stats</button>
-                        </p>
-                    </a>
-                </div>
-                <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover sortable-table" class="middle white">
+                <div class='col-sm-12 eight'>
+                    <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+                    <table class="table-info table table-bordered table-dark table-hover sortable-table table-responsive middle white">
                         <thead>
-                            <tr class="yellow"><th>Team</th><th>Player</th><th class="numeric-sort">Played</th><th class="numeric-sort">Won</th><th class="numeric-sort">Lost</th><th class="numeric-sort">For</th><th class="numeric-sort">Against</th><th class="numeric-sort">Aggregate</th><th class="numeric-sort">Average</th><th class="numeric-sort">Average For</th><th class="numeric-sort">Average Against</th></tr>
+                            <tr class="yellow">
+                                <th>Team</th>
+                                <th>Player</th>
+                                <th class="numeric-sort">Played</th>
+                                <th class="numeric-sort">Won</th>
+                                <th class="numeric-sort">Lost</th>
+                                <th class="numeric-sort">For</th>
+                                <th class="numeric-sort">Against</th>
+                                <th class="numeric-sort">Aggregate</th>
+                                <th class="numeric-sort">Average</th>
+                                <th class="numeric-sort">Average For</th>
+                                <th class="numeric-sort">Average Against</th></tr>
                         </thead>
                         <tbody>
                             <tr><td>EHG</td><td>Antony Cooke</td><td>12</td><td>9</td><td>3</td><td>2250</td><td>2115</td><td>135</td><td>11.25</td><td>187.5</td><td>176.25</td></tr>
@@ -152,22 +176,22 @@
                             <tr><td>EWLOE B</td><td>Graham Martin</td><td>12</td><td>7</td><td>5</td><td>2280</td><td>2240</td><td>40</td><td>3.33</td><td>190</td><td>186.67</td></tr>
                             <tr><td>EWLOE B</td><td>Malcolm Hughes</td><td>4</td><td>1</td><td>3</td><td>698</td><td>775</td><td>-77</td><td>-19.25</td><td>174.5</td><td>193.75</td></tr>
                             <tr><td>EWLOE B</td><td>Nathan Gartland</td><td>11</td><td>7</td><td>4</td><td>2121</td><td>1970</td><td>151</td><td>13.73</td><td>192.82</td><td>179.09</td></tr>
-                            <tr><td>UPTON RBL A</td><td>Colin Jones</td><td>13</td><td>7</td><td>6</td><td>2326</td><td>2316</td><td>10</td><td>0.77</td><td>178.92</td><td>178.15</td></tr>
-                            <tr><td>UPTON RBL A</td><td>Garry Morley</td><td>8</td><td>6</td><td>2</td><td>1469</td><td>1336</td><td>133</td><td>16.63</td><td>183.63</td><td>167</td></tr>
-                            <tr><td>UPTON RBL A</td><td>John Over (Jnr)</td><td>6</td><td>5</td><td>1</td><td>1177</td><td>873</td><td>304</td><td>50.67</td><td>196.17</td><td>145.5</td></tr>
-                            <tr><td>UPTON RBL A</td><td>Mark Eyton</td><td>11</td><td>3</td><td>8</td><td>2009</td><td>2072</td><td>-63</td><td>-5.73</td><td>182.64</td><td>188.36</td></tr>
-                            <tr><td>UPTON RBL A</td><td>Shaun Steadman</td><td>12</td><td>5</td><td>7</td><td>2219</td><td>2242</td><td>-23</td><td>-1.92</td><td>184.92</td><td>186.83</td></tr>
-                            <tr><td>UPTON RBL B</td><td>Alan Tomlinson</td><td>14</td><td>3</td><td>11</td><td>2271</td><td>2549</td><td>-278</td><td>-19.86</td><td>162.21</td><td>182.07</td></tr>
-                            <tr><td>UPTON RBL B</td><td>Brian Sharratt</td><td>1</td><td>0</td><td>1</td><td>185</td><td>200</td><td>-15</td><td>-15</td><td>185</td><td>200</td></tr>
-                            <tr><td>UPTON RBL B</td><td>Dave Nicholas</td><td>8</td><td>0</td><td>8</td><td>1319</td><td>1600</td><td>-281</td><td>-35.13</td><td>164.88</td><td>200</td></tr>
-                            <tr><td>UPTON RBL B</td><td>Jerry Banks</td><td>9</td><td>4</td><td>5</td><td>1444</td><td>1585</td><td>-141</td><td>-15.67</td><td>160.44</td><td>176.11</td></tr>
-                            <tr><td>UPTON RBL B</td><td>John Griffiths</td><td>14</td><td>6</td><td>8</td><td>2405</td><td>2409</td><td>-4</td><td>-0.29</td><td>171.79</td><td>172.07</td></tr>
-                            <tr><td>UPTON RBL B</td><td>Leo Jackson</td><td>10</td><td>4</td><td>6</td><td>1653</td><td>1661</td><td>-8</td><td>-0.8</td><td>165.3</td><td>166.1</td></tr>
-                            <tr><td>UPTON RBL C</td><td>Andy Duckers</td><td>5</td><td>2</td><td>3</td><td>832</td><td>918</td><td>-86</td><td>-17.2</td><td>166.4</td><td>183.6</td></tr>
-                            <tr><td>UPTON RBL C</td><td>Anthony Done</td><td>9</td><td>5</td><td>4</td><td>1555</td><td>1685</td><td>-130</td><td>-14.44</td><td>172.78</td><td>187.22</td></tr>
-                            <tr><td>UPTON RBL C</td><td>Geoff Brassington</td><td>14</td><td>12</td><td>2</td><td>2494</td><td>2291</td><td>203</td><td>14.5</td><td>178.14</td><td>163.64</td></tr>
-                            <tr><td>UPTON RBL C</td><td>Phil Whiteside</td><td>14</td><td>5</td><td>9</td><td>2122</td><td>2628</td><td>-506</td><td>-36.14</td><td>151.57</td><td>187.71</td></tr>
-                            <tr><td>UPTON RBL C</td><td>Steve Williams</td><td>14</td><td>7</td><td>7</td><td>2487</td><td>2479</td><td>8</td><td>0.57</td><td>177.64</td><td>177.07</td></tr>
+                            <tr><td>UPTON A</td><td>Colin Jones</td><td>13</td><td>7</td><td>6</td><td>2326</td><td>2316</td><td>10</td><td>0.77</td><td>178.92</td><td>178.15</td></tr>
+                            <tr><td>UPTON A</td><td>Garry Morley</td><td>8</td><td>6</td><td>2</td><td>1469</td><td>1336</td><td>133</td><td>16.63</td><td>183.63</td><td>167</td></tr>
+                            <tr><td>UPTON A</td><td>John Over (Jnr)</td><td>6</td><td>5</td><td>1</td><td>1177</td><td>873</td><td>304</td><td>50.67</td><td>196.17</td><td>145.5</td></tr>
+                            <tr><td>UPTON A</td><td>Mark Eyton</td><td>11</td><td>3</td><td>8</td><td>2009</td><td>2072</td><td>-63</td><td>-5.73</td><td>182.64</td><td>188.36</td></tr>
+                            <tr><td>UPTON A</td><td>Shaun Steadman</td><td>12</td><td>5</td><td>7</td><td>2219</td><td>2242</td><td>-23</td><td>-1.92</td><td>184.92</td><td>186.83</td></tr>
+                            <tr><td>UPTON B</td><td>Alan Tomlinson</td><td>14</td><td>3</td><td>11</td><td>2271</td><td>2549</td><td>-278</td><td>-19.86</td><td>162.21</td><td>182.07</td></tr>
+                            <tr><td>UPTON B</td><td>Brian Sharratt</td><td>1</td><td>0</td><td>1</td><td>185</td><td>200</td><td>-15</td><td>-15</td><td>185</td><td>200</td></tr>
+                            <tr><td>UPTON B</td><td>Dave Nicholas</td><td>8</td><td>0</td><td>8</td><td>1319</td><td>1600</td><td>-281</td><td>-35.13</td><td>164.88</td><td>200</td></tr>
+                            <tr><td>UPTON B</td><td>Jerry Banks</td><td>9</td><td>4</td><td>5</td><td>1444</td><td>1585</td><td>-141</td><td>-15.67</td><td>160.44</td><td>176.11</td></tr>
+                            <tr><td>UPTON B</td><td>John Griffiths</td><td>14</td><td>6</td><td>8</td><td>2405</td><td>2409</td><td>-4</td><td>-0.29</td><td>171.79</td><td>172.07</td></tr>
+                            <tr><td>UPTON B</td><td>Leo Jackson</td><td>10</td><td>4</td><td>6</td><td>1653</td><td>1661</td><td>-8</td><td>-0.8</td><td>165.3</td><td>166.1</td></tr>
+                            <tr><td>UPTON C</td><td>Andy Duckers</td><td>5</td><td>2</td><td>3</td><td>832</td><td>918</td><td>-86</td><td>-17.2</td><td>166.4</td><td>183.6</td></tr>
+                            <tr><td>UPTON C</td><td>Anthony Done</td><td>9</td><td>5</td><td>4</td><td>1555</td><td>1685</td><td>-130</td><td>-14.44</td><td>172.78</td><td>187.22</td></tr>
+                            <tr><td>UPTON C</td><td>Geoff Brassington</td><td>14</td><td>12</td><td>2</td><td>2494</td><td>2291</td><td>203</td><td>14.5</td><td>178.14</td><td>163.64</td></tr>
+                            <tr><td>UPTON C</td><td>Phil Whiteside</td><td>14</td><td>5</td><td>9</td><td>2122</td><td>2628</td><td>-506</td><td>-36.14</td><td>151.57</td><td>187.71</td></tr>
+                            <tr><td>UPTON C</td><td>Steve Williams</td><td>14</td><td>7</td><td>7</td><td>2487</td><td>2479</td><td>8</td><td>0.57</td><td>177.64</td><td>177.07</td></tr>
                             <tr><td>WAVERTON A</td><td>Andy Sutton-Thompson</td><td>13</td><td>4</td><td>9</td><td>2330</td><td>2502</td><td>-172</td><td>-13.23</td><td>179.23</td><td>192.46</td></tr>
                             <tr><td>WAVERTON A</td><td>John O'Boyle</td><td>11</td><td>6</td><td>5</td><td>2022</td><td>1995</td><td>27</td><td>2.45</td><td>183.82</td><td>181.36</td></tr>
                             <tr><td>WAVERTON A</td><td>Josh Nicholas</td><td>11</td><td>4</td><td>7</td><td>2038</td><td>2004</td><td>34</td><td>3.09</td><td>185.27</td><td>182.18</td></tr>
@@ -183,6 +207,8 @@
                             <tr><td>WAVERTON B</td><td>Tom Hughes</td><td>7</td><td>2</td><td>5</td><td>1239</td><td>1223</td><td>16</td><td>2.29</td><td>177</td><td>174.71</td></tr>
                         </tbody>
                     </table>
+                    <script src="function.js">
+                    </script>
                 </div>
                 <div class='Ads'>
                     <div class='col-sm-12'>
@@ -210,4 +236,22 @@
             </div>
         </div>
     </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
+
+
+<!-- © CookieMonster | <a href="https://antony-cooke.github.io/ChesterBL/</a> -->
+
+</html>
