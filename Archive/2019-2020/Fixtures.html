@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fixtures</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <!-- JavaScript-->
+    <script language="javascript" type="text/javascript" src="main.js"></script>
+</head>
+
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Fixtures.html">Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Table.html">League Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Breaks.html">Breaks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Handicaps.html">Adjusted Handicaps</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Statistics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Stats.html">Stats from All Matches</a>
+                        <a class="dropdown-item" href="StatsHome.html">Stats from Home Matches</a>
+                        <a class="dropdown-item" href="StatsAway.html">Stats from Away Games</a>
+                        <a class="dropdown-item" href="IndHome.html">Individual Match Scores (H)</a>
+                        <a class="dropdown-item" href="IndAway.html">Individual Match Scores (A)</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cayzer Cup
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
+                        <a class="dropdown-item" href="CayzerGrp.html">Groups</a>
+                        <a class="dropdown-item" href="CayzerFixA.html">Group A Fixtures</a>
+                        <a class="dropdown-item" href="CayzerFixB.html">Group B Fixtures</a>
+                        <a class="dropdown-item" href="CayzerRes.html">Tables</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class='main'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h1 class="middle yellow five">Chester Billiards League<br>2019-2020</h1>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white four"> Fixture Schedule and Match Results</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <a href="#week14">
+                        <p class="middle">
+                            <button id="btn" class="w3-button w3-border w3-xxlarge w3-black w3-text-white">Current
+                                Week</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-12'>
+                    <h4 class="darkred three"><b>Postponed Match</b>
+                        <br><b><u><a href="#week05">Week 5:</a></u></b>
+                        <br>Upton A v Ewloe B no date set at present
+                    </h4>
+                </div>
+                <div class='col-sm-12'>
+                    <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+                    <table class="table-info table table-bordered table-dark table-hover middle white">
+                        <thead id="week01">
+                            <tr>
+                                <th colspan="5">Week 1 : 17th September 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W1M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Waverton A</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W1M2.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W1M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W1M4.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week02">
+                            <tr>
+                                <th colspan="5">Week 2: 24th September 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W2M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W2M2.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W2M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W2M4.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Waverton A</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week03">
+                            <tr>
+                                <th colspan="5">Week 3: 1st October 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W3M1.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W3M2.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Waverton B</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W3M3.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W3M4.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton B</td>
+                            </tr>
+                            <thead id="week04">
+                                <tr>
+                                    <th colspan="5"> Week 4: 8th October 2019</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W4M1.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W4M2.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W4M3.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W4M4.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Waverton A</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week05">
+                            <tr>
+                                <th colspan="5"> Week 5: 15th October 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W5M1.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Waverton B</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W5M2.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton B</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W5M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr class="yellow">
+                                <td>Upton A</td>
+                                <td>P</td>
+                                <td>v</td>
+                                <td>P</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="5" ; class="red"> Competition Week : 22nd October 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" ; class="red">INDIVIDUAL MATCHES</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week06">
+                            <tr>
+                                <th colspan="5"> Week 6: 29th October 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W6M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W6M2.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W6M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W6M4.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Waverton B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week07">
+                            <tr>
+                                <th colspan="5"> Week 7: 5th November 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W7M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W7M2.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Waverton A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>0</td>
+                                <td><a href="images\Scorecards\2019-2020\W7M3.jpg" target="_blank">v</a></td>
+                                <td>10</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W7M4.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="5" ; class="red"> Competition Week : 12th November 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" ; class="red"><a href="Thomas.html#round2">INDIVIDUAL MATCHES</a></td>
+                            </tr>
+                        </tbody>
+                        <thead id="week08">
+                            <tr>
+                                <th colspan="5"> Week 8: 19th November 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W8M1.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>0</td>
+                                <td><a href="images\Scorecards\2019-2020\W8M2.jpg" target="_blank">v</a</td>
+                                <td>10</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W8M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Waverton B</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W8M4.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Upton B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week09">
+                            <tr>
+                                <th colspan="5"> Week 9: 26th November 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W9M1.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W9M2.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>10</td>
+                                <td><a href="images\Scorecards\2019-2020\W9M3.jpg" target="_blank">v</a></td>
+                                <td>0</td>
+                                <td>Upton B</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>0</td>
+                                <td><a href="images\Scorecards\2019-2020\W9M4.jpg" target="_blank">v</a></td>
+                                <td>10</td>
+                                <td>Waverton B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week10">
+                            <tr>
+                                <th colspan="5"> Week 10: 3rd December 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W10M1.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W10M2.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Upton A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W10M3.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W10M4.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Waverton A</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week11">
+                            <tr>
+                                <th colspan="5"> Week 11: 10th December 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W11M1.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton B</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe A</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W11M2.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Waverton B</td>
+                            </tr>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W11M3.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W11M4.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Ewloe B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week12">
+                            <tr>
+                                <th colspan="5"> Week 12: 17th December 2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W12M1.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Upton B</td>
+                                <td>2</td>
+                                <td><a href="images\Scorecards\2019-2020\W12M2.jpg" target="_blank">v</a></td>
+                                <td>8</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W12M3.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Waverton A</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W12M4.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton A</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week13">
+                            <tr>
+                                <th colspan="5"> Week 13: 7th January 2020</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eastham Home Guard</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W13M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W13M2.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Waverton A</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>6</td>
+                                <td><a href="images\Scorecards\2019-2020\W13M3.jpg" target="_blank">v</a></td>
+                                <td>4</td>
+                                <td>Upton C</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton B</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W13M4.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Upton B</td>
+                            </tr>
+                        </tbody>
+                        <thead id="week14">
+                            <tr>
+                                <th colspan="5"> Week 14: 14th January 2020</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Upton A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W14M1.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Eastham Home Guard</td>
+                            </tr>
+                            <tr>
+                                <td>Waverton A</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W14M2.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Ewloe A</td>
+                            </tr>
+                            <tr>
+                                <td>Upton C</td>
+                                <td>4</td>
+                                <td><a href="images\Scorecards\2019-2020\W14M3.jpg" target="_blank">v</a></td>
+                                <td>6</td>
+                                <td>Upton B</td>
+                            </tr>
+                            <tr>
+                                <td>Ewloe B</td>
+                                <td>8</td>
+                                <td><a href="images\Scorecards\2019-2020\W14M4.jpg" target="_blank">v</a></td>
+                                <td>2</td>
+                                <td>Waverton B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <script src="function.js">
+                    </script>
+                </div>
+                <div class='col-sm-12'>
+                    <br>
+                </div>
+                <!--
+                <div class='col-sm-12'>
+                    <h2 class="middle white four">
+                        <br>Waverton A beat Chester Cons 10-0 in the play off for the League title, at Upton RBL on
+                        Monday March 4th 2020
+                    </h2>
+                </div>-->
+                <div class='col-sm-12'>
+                    <br>
+                </div>
+                <div class='col-sm-12'>
+                    <a href="Table.html">
+                        <p class="middle">
+                            <button id="btn" class="w3-button w3-border w3-xxlarge w3-black w3-text-white">League
+                                Table</button>
+                        </p>
+                    </a>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white four"><b><u>Most Wins: </u></b></h2>
+                    <h4 class="middle yellow two">
+                        <b>Geoff Brassington has the most wins again (12).</b>
+                        <br>Tony Cooke, Alan Norwood, Darren Robinson and Sid Craven have 9 wins.
+                        <br>2 matches have been postponed.</h4>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white four"><b><u>Highest Break: </u></b></h2>
+                    <h4 class="middle black two"><b>Geoff Brassington 167 on 16 December 2019</h4>
+                </div>
+                <div class='Ads'>
+                    <div class='col-sm-12'>
+                        <p class="middle yellow three">
+                            <b>Chester Billiards League are proudly sponsored by</b>
+                        </p>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                    <div class='col-sm-12 middle' ;>
+                        <a href="http://www.whitchurch-sports.co.uk/index.htm">
+                            <div>
+                                <img src="images/Whitchurch.jpg">
+                                <!--
+                            <img src="images/Whitchurch.jpg" width="480" height="43">
+                            -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- © CookieMonster | <a href="https://antony-cooke.github.io/ChesterBL/</a> -->
+
+</html>

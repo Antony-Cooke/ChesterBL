@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Davies Cup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Fixtures.html">Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Table.html">League Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Breaks.html">Breaks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Handicaps.html">Adjusted Handicaps</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Statistics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Stats.html">Stats from All Matches</a>
+                        <a class="dropdown-item" href="StatsHome.html">Stats from Home Matches</a>
+                        <a class="dropdown-item" href="StatsAway.html">Stats from Away Games</a>
+                        <a class="dropdown-item" href="IndHome.html">Individual Match Scores (H)</a>
+                        <a class="dropdown-item" href="IndAway.html">Individual Match Scores (A)</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cayzer Cup
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
+                        <a class="dropdown-item" href="CayzerGrp.html">Groups</a>
+                        <a class="dropdown-item" href="CayzerFixA.html">Group A Fixtures</a>
+                        <a class="dropdown-item" href="CayzerFixB.html">Group B Fixtures</a>
+                        <a class="dropdown-item" href="CayzerRes.html">Tables</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar 2019 - 2020</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class='main'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h1 class="middle yellow five"> Chester Billiards League<br>2019-2020</h1>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white five"> Davies Cup</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle red four"> Results to our e-mail address please.
+                        <br>Or click the button
+                        <p class="middle">
+                            <!--<button id="btn1" type="button" class="btn btn-warning">Will Thomas Result</button>-->
+                            <button id="btn2" class="w3-button w3-border w3-xxlarge w3-green w3-text-black">Davies Cup
+                                Result</button>
+                        </p>
+                    </h3>
+                    <div id='DCF'>
+                        <p class="font-size: 10pt">
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSc05QnSOEWgkP8SB0793DfKqSp2liDoUpOdgC9Oq7fzebTAxw/viewform?embedded=true"
+                                width="1000" height="1500" frameborder="0" marginheight="0"
+                                marginwidth="0">Loading...</iframe>
+                        </p>
+                    </div>
+                </div>
+                <!--
+                <div class='col-sm-12'>
+                    <h3 class="middle white four"> Final - to be played on 30th April 2019 at 19:30</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle black four"> 400 up off scratch</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover middle white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Player 1</th>
+                                <th>Score</th>
+                                <th>Player 2</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Geoff Brassington</td>
+                                <td>400</td>
+                                <td>Colin Jones</td>
+                                <td>66</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white three">
+                        <b>Geoff had breaks of 74, 52, 103, 43 & 62unf to win comfortably</b>
+                    </h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle red four"> Congratulations once again to Geoff Brassington
+                    </h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle white three"> Semi Final - played on 16th April
+                        at Ewloe Social Club</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white three">
+                        <u>Dress Code</u>
+                        <br>Now that we are at the Semi-Final stage of the competition, please note that the dress code
+                        comes
+                        into operation.
+                        <br>No Jeans, trainers or collarless shirts please.</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle black four"> 300 up off scratch</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover middle white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Match</th>
+                                <th>Time</th>
+                                <th>Home</th>
+                                <th>Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SF1</td>
+                                <td>19:30</td>
+                                <td><strike>Tony Done (110)</strike></td>
+                                <td class="red">Geoff Brassington (300)</td>
+                            </tr>
+                            <tr>
+                                <td>SF2</td>
+                                <td>"</td>
+                                <td class="red">Colin Jones (300)</td>
+                                <td><strike>Eddie Duggan (259)</strike></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                -->
+                <div class='col-sm-12'>
+                    <h3 class="middle white three"> 3rd Round - POSTPONED Dates TBA</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle black four"> 200 up off scratch</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover middle  white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Match</th>
+                                <th>Place</th>
+                                <th>Date / Time</th>
+                                <th>Home</th>
+                                <th>Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>QF1</td>
+                                <td>Eastham Home Guard</td>
+                                <td>19:30</td>
+                                <td>Mike Bennett</td>
+                                <td>Phil Woolland</td>
+                            </tr>
+                            <tr>
+                                <td>QF2</td>
+                                <td>Upton RBL</td>
+                                <td>19:30</td>
+                                <td>Colin Jones </td>
+                                <td>Tony Done</td>
+                            </tr>
+                            <tr>
+                                <td>QF3</td>
+                                <td>Upton RBL</td>
+                                <td>19:30</td>
+                                <td>Geoff Brassington</td>
+                                <td>Steve Bradshaw</td>
+                            </tr>
+                            <tr>
+                                <td>QF4</td>
+                                <td>Waverton MI</td>
+                                <td>19:30</td>
+                                <td>Andy Sutton-Thompson</td>
+                                <td>Eddie Duggan</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                -->
+                <div class='col-sm-12'>
+                    <h3 class="middle white three"> 1st Round - to be played on 21st January 2020</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <h3 class="middle black four"> 200 up off scratch</h3>
+                </div>
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover middle white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Match</th>
+                                <th>Place</th>
+                                <th>Time</th>
+                                <th>Home</th>
+                                <th>Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1R1</td>
+                                <td>Waverton</td>
+                                <td>19:30</td>
+                                <td class="red">Andy Sutton Thompson (w/o)</td>
+                                <td>Terry McAdam</td>
+                            </tr>
+                            <tr>
+                                <td>1R2</td>
+                                <td>Waverton</td>
+                                <td>19:30</td>
+                                <td>Darren Robinson</td>
+                                <td class="red">Eddie Duggan</td>
+                            </tr>
+                            <tr>
+                                <td>1R3</td>
+                                <td>Eastham Home Guard</td>
+                                <td>30/1/20</td>
+                                <td>Tony Cooke</td>
+                                <td class="red">Phil Woolland</td>
+                            </tr>
+                            <tr>
+                                <td>1R4</td>
+                                <td>Ewloe</td>
+                                <td>27/1/20</td>
+                                <td class="red">Nathan Gartland (104)</td>
+                                <td>Tony Done (200)</td>
+                            </tr>
+                            <tr>
+                                <td>1R5</td>
+                                <td>Ewloe</td>
+                                <td>19:30</td>
+                                <td>Ken Massey</td>
+                                <td class="red">Steve Bradshaw</td>
+                            </tr>
+                            <tr>
+                                <td>1R6</td>
+                                <td>Upton RBL</td>
+                                <td>19:30</td>
+                                <td class="red">Geoff Brassington</td>
+                                <td>Alan Norwood</td>
+                            </tr>
+                            <tr>
+                                <td>1R7</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td class="red">Colin Jones</td>
+                                <td>Bye</td>
+                            </tr>
+                            <tr>
+                                <td>1R8</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td class="red">Mike Bennett</td>
+                                <td>Bye</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='Ads'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <p class="middle yellow three">
+                        <b>Chester Billiards League are proudly sponsored by</b>
+                    </p>
+                </div>
+                <div class='col-sm-12'>
+                    <br>
+                </div>
+                <div class='col-sm-12 middle'>
+                    <a href="http://www.whitchurch-sports.co.uk/index.htm">
+                        <div>
+                            <img src="images/Whitchurch.jpg">
+                            <!--
+                                <img src="images/Whitchurch.jpg" width="480" height="43">
+                                -->
+                        </div>
+                    </a>
+                </div>
+                <div class='col-sm-12'>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- © CookieMonster | <a href="https://antony-cooke.github.io/ChesterBL/</a> -->
+
+</html>
