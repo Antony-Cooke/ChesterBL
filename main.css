@@ -50,7 +50,12 @@ table.adj2 {
     color: red;
 }
 .darkgrey {
+    font-weight: bold;
     color: darkgrey;
+}
+.grey {
+    font-weight: bold;
+    color: grey;
 }
 .yellowgreen {
     color: yellowgreen;
