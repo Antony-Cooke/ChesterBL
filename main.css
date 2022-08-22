@@ -78,6 +78,12 @@ table.adj2 {
 .black {
     color: black;
 }
+.lightblue {
+    color: rgb(72, 129, 235);
+}
+.blue {
+    color: blue;
+}
 .six {
     font-size:6vw;
 }
