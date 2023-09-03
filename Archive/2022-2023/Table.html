@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>League Table</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body class="pic">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="History.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Fixtures.html">Fixtures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Table.html">League Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Breaks.html">Breaks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Handicaps.html">Handicaps</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Statistics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Stats.html">Stats from All Matches</a>
+                        <a class="dropdown-item" href="StatsHome.html">Stats from Home Matches</a>
+                        <a class="dropdown-item" href="StatsAway.html">Stats from Away Games</a>
+                        <a class="dropdown-item" href="IndHome.html">Individual Match Scores (H)</a>
+                        <a class="dropdown-item" href="IndAway.html">Individual Match Scores (A)</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cayzer Cup
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
+                        <a class="dropdown-item" href="CayzerFixtures.html">Fixtures</a>
+                        <a class="dropdown-item" href="CayzerRes.html">Table</a>
+                        <a class="dropdown-item" href="CayzerPerf.html">Individual Performance</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Individual Comps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Davies.html">Davies Cup</a>
+                        <a class="dropdown-item" href="Thomas.html">Will Thomas Cup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="EABA.html">EABA Calendar</a>
+                        <a class="dropdown-item" href="Links.html">Billiards Links</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archive
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Archive\2017-2018\index.html">2017-2018</a>
+                        <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
+                        <a class="dropdown-item" href="Archive\2019-2020\index.html">2019-2020</a>
+                        <a class="dropdown-item" href="Archive\2021-2022\index.html">2021-2022</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class='main'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h1 class="middle yellow five">Chester Billiards League<br>2022-2023</h1>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white five">League Table</h2>
+                </div>
+                <!-- <div class='col-sm-12'>
+                    <h2 class="middle red two">Congratulations to Ewloe A, champions for the season 2021-2022.</h2>
+                </div> -->
+                <div class='col-sm-12'>
+                    <table class="table table-bordered table-dark table-hover" class="middle white">
+                        <thead>
+                            <tr class="yellow">
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>Played</th>
+                                <th>Points</th>
+                                <th>For</th>
+                                <th>Against</th>
+                                <th>Aggregate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>Ewloe A</td><td>10</td><td>78</td><td>7099</td><td>5991</td><td>1108</td></tr>
+                            <tr><td>2</td><td>Upton RBL A</td><td>10</td><td>64</td><td>7016</td><td>6563</td><td>453</td></tr>
+                            <tr><td>3</td><td>Waverton</td><td>10</td><td>50</td><td>6135</td><td>6077</td><td>58</td></tr>
+                            <tr><td>4</td><td>Eastham Home Guard</td><td>10</td><td>34</td><td>5484</td><td>6404</td><td>-920</td></tr>
+                            <tr><td>5</td><td>Ewloe B</td><td>9</td><td>32</td><td>3831</td><td>4099</td><td>-268</td></tr>
+                            <tr><td>6</td><td>Upton RBL B</td><td>9</td><td>32</td><td>5592</td><td>6023</td><td>-431</td></tr>                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white four"><b><u>Most Wins: </u></b></h2>
+                    <h4 class="middle yellow two">Alan Norwood 9 Wins and 1 loss<br>
+                        Geoff Brassington 8 Wins and 1 loss<br>
+                    </h4>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle white four"><b><u>Highest Break: </u></b></h2>
+                    <h4 class="middle black two"><b>Geoff Brassington 114</b></h4>
+                </div>
+                <div class='Ads'>
+                    <div class='col-sm-12'>
+                        <p class="middle yellow three">
+                            <b>Chester Billiards League are proudly sponsored by</b>
+                        </p>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+
+                    <div class='col-sm-12 middle'>
+                        <a href="http://www.whitchurch-sports.co.uk/index.htm">
+                            <div>
+                                <img src="images/Whitchurch.jpg">
+                                <!--
+                                <img src="images/Whitchurch.jpg" width="480" height="43">
+                                -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class='col-sm-12'>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- © CookieMonster | <a href="https://antony-cooke.github.io/ChesterBL/</a> -->
+
+</html>
