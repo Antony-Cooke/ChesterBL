@@ -64,7 +64,7 @@ table.adj2 {
     color: orange;
 }
 .purple {
-    color: purple;
+    color: plum;
 }
 .yellow {
     color: yellow;
@@ -73,7 +73,7 @@ table.adj2 {
     color: white;
 }
 .green {
-    color: green;
+    color: rgb(17, 230, 17);
 }
 .black {
     color: black;
@@ -82,7 +82,7 @@ table.adj2 {
     color: rgb(72, 129, 235);
 }
 .blue {
-    color: blue;
+    color: rgb(0, 255, 255);
 }
 .six {
     font-size:6vw;
