@@ -111,6 +111,9 @@ table.adj2 {
 .left {
     text-align: left;
 }
+.strike {
+    text-decoration: line-through;
+}
 input {
     width: 200px;
     border-radius: 5px;
