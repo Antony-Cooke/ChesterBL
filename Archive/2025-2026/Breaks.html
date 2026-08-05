@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cayzer Cup Tables</title>
+    <title>Breaks 50+</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="main.css" type="text/css">
 
+    <!-- JavaScript-->
+    <script language="javascript" type="text/javascript" src="main.js"></script>
 </head>
 
 <body class="pic">
@@ -33,7 +35,7 @@
                     <a class="nav-link" href="News.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="History.html">History</a>
+                    <a class="nav-link" href="../../History.html">History</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Fixtures.html">Fixtures</a>
@@ -42,7 +44,7 @@
                     <a class="nav-link" href="Table.html">League Table</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Constitution.html">League Constitution</a>
+                    <a class="nav-link" href="../../Constitution.html">League Constitution</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Breaks.html">Breaks</a>
@@ -50,7 +52,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="Handicaps.html">Handicaps</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Statistics
@@ -62,7 +64,7 @@
                         <a class="dropdown-item" href="IndHome.html">Individual Match Scores (H)</a>
                         <a class="dropdown-item" href="IndAway.html">Individual Match Scores (A)</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,8 +73,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="CayzerHcp.html">Handicaps</a>
                         <a class="dropdown-item" href="CayzerFixtures.html">Fixtures</a>
-                        <a class="dropdown-item" href="CayzerRes.html">Table</a>
-                        <a class="dropdown-item" href="CayzerPerf.html">Individual Performance</a>
+                        <a class="dropdown-item" href="CayzerTable.html">Table</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -91,7 +92,7 @@
                         Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://theeaba.co.uk/calendar/">EABA Calendar</a>
+                        <a class="dropdown-item" href="https://theeaba.co.uk/calendar/">EABA Calendar 2025 - 2026</a>
                         <a class="dropdown-item" href="Links.html">Billiards Links</a>
                     </div>
                 </li>
@@ -105,6 +106,8 @@
                         <a class="dropdown-item" href="Archive\2018-2019\index.html">2018-2019</a>
                         <a class="dropdown-item" href="Archive\2019-2020\index.html">2019-2020</a>
                         <a class="dropdown-item" href="Archive\2021-2022\index.html">2021-2022</a>
+                        <a class="dropdown-item" href="Archive\2022-2023\index.html">2022-2023</a>
+                        <a class="dropdown-item" href="Archive\2024-2025\index.html">2024-2025</a>
                     </div>
                 </li>
             </ul>
@@ -117,65 +120,93 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-12'>
-                    <h1 class="middle yellow two"> Chester Billiards League<br>2022-2023</h1>
+                    <h1 class="middle yellow three">Chester Billiards League<br>2025-2026</h1>
                 </div>
                 <div class='col-sm-12'>
-                    <h1 class="middle red two"> Cayzer Cup</h1>
+                    <h2 class="middle white three">Breaks over 50</h2>
                 </div>
                 <div class='col-sm-12'>
-                    <table class="table table-bordered table-dark table-hover" class="middle white two">
+                    <h2 class="middle white">Breaks recorded in League matches appear in white</h2>
+                </div>
+                <!-- <div class='col-sm-12'>
+                    <h2 class="middle orange three">Breaks recorded in double headers for both League &amp Will Thomas matches appear in orange</h2>
+                </div> -->
+                <div class='col-sm-12'>
+                    <h2 class="middle red">Breaks recorded in the Will Thomas handicap appear in red</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle yellow">Breaks recorded in the Cayzer Cup appear in yellow</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h2 class="middle plum">Breaks recorded in the Davies Cup appear in purple</h2>
+                </div>
+                <!-- <div class='col-sm-1'>
+                    <br>
+                </div> -->
+                <div class='col-sm-12'>
+                    <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+                    <table class="table-info table table-bordered table-dark table-hover white">
                         <thead>
-                            <tr>
-                                <th colspan="7">Table</th>
-                            </tr>
-                            <tr>
-                                <th class="red">Pos</th>
-                                <th class="red">Team</th>
-                                <th class="red">Played</th>
-                                <th class="red">Points</th>
-                                <th class="red">For</th>
-                                <th class="red">Against</th>
-                                <th class="red">Aggregate</th>
+                            <tr class="yellow">
+                                <th>Date</th>
+                                <th>Player</th>
+                                <th>Break</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr><td>1</td><td>Upton RBL A</td><td>10</td><td>16</td><td>6281</td></td><td>5648</td></td><td>633</td></tr>
-                            <tr><td>2</td><td>Eastham Home Guard</td><td>10</td><td>14</td><td>6406</td></td><td>6143</td></td><td>263</td></tr>
-                            <tr><td>3</td><td>Ewloe A</td><td>10</td><td>10</td><td>6352</td></td><td>6430</td></td><td>-78</td></tr>
-                            <tr><td>4</td><td>Upton RBL B</td><td>10</td><td>8</td><td>6565</td></td><td>6755</td></td><td>-190</td></tr>
-                            <tr><td>5</td><td>Waverton</td><td>10</td><td>6</td><td>6298</td></td><td>6418</td></td><td>-120</td></tr>
-                            <tr><td>6</td><td>Ewloe B</td><td>10</td><td>6</td><td>4536</td></td><td>5044</td></td><td>-508</td></tr>
-                        </tbody>
+                        <tbody class="white">
+                            <tr class="yellow"><td>03-02-26</td><td>Geoff Brassington</td><td>165</td></tr>
+                            <tr><td>21-10-25</td><td>Geoff Brassington</td><td>164 UNF</td></tr>
+                            <tr class="yellow"><td>24-03-26</td><td>Geoff Brassington</td><td>127 UNF</td></tr>
+                            <tr><td>25-11-25</td><td>Geoff Brassington</td><td>119</td></tr>
+                            <tr><td>09-12-25</td><td>Geoff Brassington</td><td>110</td></tr>
+                            <tr><td>11-11-25</td><td>Geoff Brassington</td><td>107</td></tr>
+                            <tr class="red"><td>31-03-26</td><td>Geoff Brassington</td><td>104</td></tr>
+                            <tr><td>11-11-25</td><td>Geoff Brassington</td><td>101</td></tr>
+                            <tr><td>18-11-25</td><td>Geoff Brassington</td><td>98</td></tr>
+                            <tr class="yellow"><td>03-02-26</td><td>Geoff Brassington</td><td>95</td></tr>
+                            <tr class="yellow"><td>10-03-26</td><td>Steve Bradshaw</td><td>94</td></tr>
+                            <tr><td>09-12-25</td><td>Geoff Brassington</td><td>92</td></tr>
+                            <tr><td>09-12-25</td><td>Geoff Brassington</td><td>92</td></tr>
+                            <tr class="yellow"><td>03-03-26</td><td>Geoff Brassington</td><td>85</td></tr>
+                            <tr class="yellow"><td>10-02-26</td><td>Geoff Brassington</td><td>83</td></tr>
+                            <tr class="plum"><td>23-04-26</td><td>Geoff Brassington</td><td>82</td></tr>
+                            <tr><td>16-09-25</td><td>Geoff Brassington</td><td>81</td></tr>
+                            <tr><td>02-12-25</td><td>Geoff Brassington</td><td>80</td></tr>
+                            <tr><td>21-01-26</td><td>Geoff Brassington</td><td>80</td></tr>
+                            <tr><td>16-09-25</td><td>Tony Done</td><td>76</td></tr>
+                            <tr><td>21-10-25</td><td>Geoff Brassington</td><td>72</td></tr>
+                            <tr><td>16-09-25</td><td>Geoff Brassington</td><td>67</td></tr>
+                            <tr><td>06-01-26</td><td>Geoff Brassington</td><td>66 UNF</td></tr>
+                            <tr><td>25-11-25</td><td>Alan Norwood</td><td>64</td></tr>
+                            <tr><td>21-10-25</td><td>Alan Norwood</td><td>63</td></tr>
+                            <tr><td>06-01-26</td><td>Gary Peters</td><td>63</td></tr>
+                            <tr><td>30-09-25</td><td>Steve Bradshaw</td><td>62</td></tr>
+                            <tr class="yellow"><td>10-03-26</td><td>Paul Wood</td><td>62</td></tr>
+                            <tr><td>18-11-25</td><td>Geoff Brassington</td><td>60</td></tr>
+                            <tr><td>06-01-26</td><td>Geoff Brassington</td><td>60</td></tr>
+                            <tr class="plum"><td>30-04-26</td><td>Geoff Brassington</td><td>59</td></tr>
+                            <tr><td>17-02-26</td><td>Terry McAdam</td><td>58</td></tr>
+                            <tr><td>17-02-26</td><td>Tony Done</td><td>58</td></tr>
+                            <tr><td>06-01-26</td><td>Geoff Brassington</td><td>56</td></tr>
+                            <tr class="yellow"><td>10-02-26</td><td>Tony Done</td><td>56</td></tr>
+                            <tr><td>13-01-26</td><td>Paul Wood</td><td>55</td></tr>
+                            <tr><td>06-01-26</td><td>Geoff Brassington</td><td>54</td></tr>
+                            <tr><td>28-10-25</td><td>Phil Woolland</td><td>53</td></tr>
+                            <tr><td>18-11-25</td><td>Tony Done</td><td>53 UNF</td></tr>
+                            <tr class="plum"><td>30-04-26</td><td>Geoff Brassington</td><td>52</td></tr>
+                            <tr><td>18-11-25</td><td>Steve Bradshaw</td><td>51</td></tr>
+                            <tr class="yellow"><td>03-03-26</td><td>Tony Done</td><td>51</td></tr>
+                            <tr><td>23-09-25</td><td>Tony Done</td><td>50</td></tr>
+                            <tr><td>16-12-25</td><td>Steve Bradshaw</td><td>50</td></tr>
+                            <tr><td>21-01-26</td><td>Tony Done</td><td>50</td></tr>
+                            <tr class="yellow"><td>17-03-26</td><td>Rich Sutton</td><td>50</td></tr>
+                        </tbody> 
                     </table>
+                    <script src="function.js">
+                    </script>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class='Ads'>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-sm-12'>
-                    <p class="middle yellow three">
-                        <b>Chester Billiards League are proudly sponsored by</b>
-                    </p>
-                </div>
-                <div class='col-sm-12'>
-                    <br>
-                </div>
-                <div class='col-sm-12 middle'>
-                    <a href="http://www.whitchurch-sports.co.uk/index.htm">
-                        <div>
-                            <img src="images/Whitchurch.jpg">
-                            <!--
-                                <img src="images/Whitchurch.jpg" width="480" height="43">
-                                -->
-                        </div>
-                    </a>
-                    <a href="http://www.whitchurch-sports.co.uk/index.htm"></a>
-                </div>
-                <div class='col-sm-12'>
-                    <br>
-                </div>
+                <!-- <div class='col-sm-1'>
+                </div> -->
             </div>
         </div>
     </div>
